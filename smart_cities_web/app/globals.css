@@ -6,6 +6,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --blackv: #1A1A1A;
+  --redv: #A26769;
+  --grayv: #DBDBDC;
+  --whitev: #F7F7F8;
+  --greenv: #95AEAE;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,12 +21,35 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.map-container {
+  @apply absolute w-full inset-y-1;
+}
+
+html, body {
+  @apply h-full overflow-hidden m-0;
+}
+
+
+#header {
+  @apply absolute bg-[color:var(--whitev)] w-full h-[10%] shadow-[0_3px_10px_rgb(0_0_0_/_0.3)] p-2.5 top-0;
+}
+#tile {
+  @apply absolute bg-[color:var(--greenv)] w-[17%] h-full px-[10px] py-0 left-0 top-0;
+}
+#tile h1 {
+  @apply text-[color:var(--whitev)] text-[2vw] leading-[6vh];
+}
+#tile p {
+  @apply text-[color:var(--grayv)] text-[1vw];
+}
+#slider {
+  @apply appearance-none w-[30%] absolute text-[color:var(--greenv)] rounded-[15px] left-[20%] top-[30%];
+  -webkit-appearance: none;
+  outline: none;
+  background: var(--grayv);
+}
+#slider::-webkit-slider-thumb {
+  @apply appearance-none h-5 w-5 shadow-[0_3px_3px_rgb(0_0_0_/_0.2)] cursor-pointer rounded-[50%];
+  -webkit-appearance: none;
+  background: var(--greenv);
 }
