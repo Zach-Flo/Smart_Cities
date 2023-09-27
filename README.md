@@ -12,7 +12,7 @@ If this is your first time trying to run this on your local machine:
 3. Install npm modules (only do this once)
 ```npm install```
 
-4. Finally, see the npm server
+4. Finally, run the npm server
 ```npm run dev```
  
 5. In your browser, go to the following url to see the site
