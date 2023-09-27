@@ -6,7 +6,8 @@ If this is your first time trying to run this on your local machine:
 1. Clone the url (only do this once)
 ```git clone https://github.uconn.edu/robingould/SDP_Smart_Cities.git```
 
-2. Make sure you are in the right directory 
+2. Make sure you are in the right directory
+```cd SDP_Smart_Cities```
 
 3. Install npm modules (only do this once)
 ```npm install```
