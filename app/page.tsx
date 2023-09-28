@@ -62,13 +62,13 @@ function App() {
   return (
     <>
     
-    <div ref={ mapContainer } className="map-container" />
-    <div id='header'>
-      <div id='tile'>
-        <h1>E-Scooter Data</h1>
-        <p>Chicago, IL, USA - 2020</p>
-        </div> 
-        <Slider />
+    <div ref={ mapContainer } className="map-container absolute w-full inset-y-1" />
+    <div id='header' className="absolute grid grid-cols-4 bg-[color:var(--whitev)] w-full h-24 shadow-xl">
+      <div id='tile' className="bg-[color:var(--greenv)] py-3 px-5">
+        <h1 className="text-[color:var(--whitev)] text-4xl text-left">E-Scooter Data</h1>
+        <p className="text-[color:var(--grayv)] text-xl text-left">Chicago, IL, USA - 2020</p>
+      </div> 
+      <Slider />
         </div>
     </>
 

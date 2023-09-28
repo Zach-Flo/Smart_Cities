@@ -21,42 +21,17 @@
   }
 }
 
-.map-container {
-  @apply absolute w-full inset-y-1;
-}
 
 html, body {
   @apply h-full overflow-hidden select-none m-0;
 }
 
-
-#header {
-  @apply absolute bg-[color:var(--whitev)] w-full h-[10%] shadow-[0_3px_10px_rgb(0_0_0_/_0.3)] p-2.5 top-0;
-}
-#tile {
-  @apply absolute bg-[color:var(--greenv)] w-[17%] h-full px-[10px] py-0 left-0 top-0;
-}
-#tile h1 {
-  @apply text-[color:var(--whitev)] text-[2vw] leading-[6vh];
-}
-#tile p {
-  @apply text-[color:var(--grayv)] text-[1vw];
-}
-
-.slider-bar {
-  @apply w-[30%] absolute left-[20%] top-[30%]; 
-}
-
 .slider-track{
-  @apply top-[8px] left-[25%] h-[10px] bg-[color:var(--grayv)] rounded-xl;
+  @apply h-3 top-1 bg-[color:var(--grayv)] rounded-xl;
 }
 
 .slider-track.slider-track-0 {
   @apply bg-[color:var(--greenv)];
-}
-
-.slider-thumb{
-  @apply cursor-pointer absolute bg-[color:var(--greenv)] top-[2px] left-[2px] w-[20px] h-[20px] rounded-full outline-none; 
 }
 
 .slider-thumb:hover{
