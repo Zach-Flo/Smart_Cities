@@ -26,7 +26,7 @@
 }
 
 html, body {
-  @apply h-full overflow-hidden m-0;
+  @apply h-full overflow-hidden select-none m-0;
 }
 
 
@@ -42,14 +42,23 @@ html, body {
 #tile p {
   @apply text-[color:var(--grayv)] text-[1vw];
 }
-#slider {
-  @apply appearance-none w-[30%] absolute text-[color:var(--greenv)] rounded-[15px] left-[20%] top-[30%];
-  -webkit-appearance: none;
-  outline: none;
-  background: var(--grayv);
+
+.slider-bar {
+  @apply w-[30%] absolute left-[20%] top-[30%]; 
 }
-#slider::-webkit-slider-thumb {
-  @apply appearance-none h-5 w-5 shadow-[0_3px_3px_rgb(0_0_0_/_0.2)] cursor-pointer rounded-[50%];
-  -webkit-appearance: none;
-  background: var(--greenv);
+
+.slider-track{
+  @apply top-[8px] left-[25%] h-[10px] bg-[color:var(--grayv)] rounded-xl;
+}
+
+.slider-track.slider-track-0 {
+  @apply bg-[color:var(--greenv)];
+}
+
+.slider-thumb{
+  @apply cursor-pointer absolute bg-[color:var(--greenv)] top-[2px] left-[2px] w-[20px] h-[20px] rounded-full outline-none; 
+}
+
+.slider-thumb:hover{
+  @apply shadow-[0_0_0_8px_rgba(149_174_175_/_0.3)];
 }
