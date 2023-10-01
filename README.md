@@ -18,4 +18,10 @@ If this is your first time trying to run this on your local machine:
 5. In your browser, go to the following url to see the site
  ```http://localhost:3000```
  
- 
+
+
+##
+
+## Screenshot of the an early iteration of the site
+
+![preview of an early iteration](https://github.uconn.edu/robingould/SDP_Smart_Cities/blob/main/early_iteration.png)
