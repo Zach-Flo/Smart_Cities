@@ -11,8 +11,8 @@ function App() {
       <Router>
       <div>
         <Routes>
-          <Route path="/" Component={map} />
-          <Route path="/about" Component={information} />
+          <Route path="/map" Component={map} />
+          <Route path="/" Component={information} />
         </Routes>
       </div>
     </Router>

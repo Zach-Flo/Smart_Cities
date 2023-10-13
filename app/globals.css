@@ -37,3 +37,44 @@ html, body {
 .slider-thumb:hover{
   @apply shadow-[0_0_0_8px_rgba(149_174_175_/_0.3)];
 }
+
+.fallen-scooter{
+  position: relative;
+  height: 100vh;
+  background-image: url(./images/FallenScooters.jpg);
+  background-size: cover;
+
+}
+.kid-on-scooter{
+  position: relative;
+  height: 100vh;
+  background-image: url(./images/KidOnScooter.jpg);
+  background-size: cover;
+
+}
+.scooter-hub{
+  position: relative;
+  height: 100vh;
+  background-image: url(./images/ScooterHub.jpg);
+  background-size: cover;
+
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.img-txt{
+  background-color: #333;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+
+}
