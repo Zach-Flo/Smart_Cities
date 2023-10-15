@@ -11,16 +11,23 @@ import { url } from 'inspector';
 const information = () => {
     return (
         <>
-        
+        <div
+            className=' img-txt'>Exploring E-Scooter Trends: Data Insights
+        </div>
+        <div className=' img-txt-names'>
+            James Bonsu,
+            Zach Florian,
+            Shichen Ma,
+            Hayden Godfrey,
+            Robin Gould,
+            Li Yuyao
+        </div>
             <Parallax className='fallen-scooter' strength={400}>
                 <Background className=''>
                     <div className='content'>
-                        <div
-                        data-te-animation-init
-                        data-te-animation-start="onLoad"
-                        data-te-animation-reset="true"
-                        data-te-animation="[slide-right_1s_ease-in-out]" className=' img-txt'>Exploring E-Scooter Trends: Data Insights
-                        </div>
+                        
+                    
+
                         <img 
                         src="https://s3-prod.crainsnewyork.com/Screen%20Shot%202023-06-16%20at%201.15.42%20PM.png"
                         className=' min-h-screen  min-w-min ' 
@@ -39,8 +46,8 @@ const information = () => {
                 <Background className=''>
                     <div className='content'>
                         <img 
-                        src="https://npr.brightspotcdn.com/b4/cb/a34546db4848968f50a8139673a7/ap19275506168896.jpg"
-                        className='  min-w-min translate-y-80' 
+                        src="https://ichef.bbci.co.uk/news/2048/cpsprodpb/ef94/live/a932c9a0-0047-11ee-beec-89f19e9787d8.jpg"
+                        className='  min-w-min ' 
                         alt='scooter'>
                         </img>
                     </div>

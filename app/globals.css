@@ -74,12 +74,70 @@ html, body {
 
 .img-txt{
   position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 9999;
   background-color: #333;
   text-transform: uppercase;
   color: #fff;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   letter-spacing: 10px;
   width: max-content;
+  animation: drop 2.5s ease-in-out;
+  box-shadow:  0px 0px 30px 5px white;
 
+}
+
+.img-txt-names{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 9999;
+  background-color: #333;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.3rem;
+  letter-spacing: 10px;
+  width: max-content;
+  animation: fadein 3s;
+  box-shadow:  0px 0px 30px 5px white;
+}
+
+.scooter-gif{
+  position: absolute;
+  background-image: url(https://media1.giphy.com/media/UewAqOtDU7XBSCxzJ7/source.gif);
+}
+@keyframes fadein {
+  from{
+      opacity: 0%;
+  }
+  to{
+      opacity: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+      margin-right: 100%;
+  }
+  
+  to {
+      margin-right: 0%;
+      width: 100%
+  }
+}
+
+@keyframes drop {
+  from{
+      margin-top: -2000px;
+
+  }
+  to{
+      margin-top: 0%;
+
+  }
 }
