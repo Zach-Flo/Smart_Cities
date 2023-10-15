@@ -82,7 +82,7 @@ html, body {
   text-transform: uppercase;
   color: #fff;
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 1.5vw;
   letter-spacing: 10px;
   width: max-content;
   animation: drop 2.5s ease-in-out;
@@ -100,7 +100,7 @@ html, body {
   text-transform: uppercase;
   color: #fff;
   padding: 1rem;
-  font-size: 1.3rem;
+  font-size: .8vw;
   letter-spacing: 10px;
   width: max-content;
   animation: fadein 3s;
