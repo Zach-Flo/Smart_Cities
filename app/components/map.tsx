@@ -62,7 +62,7 @@ const map = () => {
   return (
     <>
     
-    <div ref={ mapContainer } className="map-container absolute w-full inset-y-1" />
+    <div ref={ mapContainer } className="map-container relative w-full inset-y-1" />
     <div id='header' className="absolute grid grid-cols-3 bg-[color:var(--whitev)] w-full h-24 shadow-xl">
       <div id='tile' className="bg-[color:var(--greenv)] py-3 px-5 h-24">
         <h1 className="text-[color:var(--whitev)] text-4xl text-left">E-Scooter Data</h1>

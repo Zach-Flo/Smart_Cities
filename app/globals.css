@@ -23,7 +23,7 @@
 
 
 html, body {
-  @apply h-full overflow-hidden select-none m-0;
+  
 }
 
 .slider-track{
@@ -36,4 +36,108 @@ html, body {
 
 .slider-thumb:hover{
   @apply shadow-[0_0_0_8px_rgba(149_174_175_/_0.3)];
+}
+
+.fallen-scooter{
+  position: relative;
+  height: 100vh;
+
+
+
+
+}
+.kid-on-scooter{
+  position: relative;
+  height: 100vh;
+
+
+}
+.scooter-hub{
+  position: relative;
+  height: 100vh;
+
+
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility : hidden;
+}
+
+.img-txt{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 9999;
+  background-color: #333;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5vw;
+  letter-spacing: 10px;
+  width: max-content;
+  animation: drop 2.5s ease-in-out;
+  box-shadow:  0px 0px 30px 5px white;
+
+}
+
+.img-txt-names{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 9999;
+  background-color: #333;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem;
+  font-size: .8vw;
+  letter-spacing: 10px;
+  width: max-content;
+  animation: fadein 3s;
+  box-shadow:  0px 0px 30px 5px white;
+}
+
+.scooter-gif{
+  position: absolute;
+  background-image: url(https://media1.giphy.com/media/UewAqOtDU7XBSCxzJ7/source.gif);
+}
+@keyframes fadein {
+  from{
+      opacity: 0%;
+  }
+  to{
+      opacity: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+      margin-right: 100%;
+  }
+  
+  to {
+      margin-right: 0%;
+      width: 100%
+  }
+}
+
+@keyframes drop {
+  from{
+      margin-top: -2000px;
+
+  }
+  to{
+      margin-top: 0%;
+
+  }
 }
