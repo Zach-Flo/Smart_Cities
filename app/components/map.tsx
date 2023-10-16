@@ -20,6 +20,7 @@ const map = () => {
       center: [lng, lat],
       zoom: zoom
     })
+    map.current.scrollZoom.disable();
     map.current.on('load', () => {
       map.current!.addSource('map_data', {
         type: 'geojson',
@@ -61,15 +62,24 @@ const map = () => {
   });
   return (
     <>
+    <div className="grid grid-cols-6 gap-3  absolute w-screen h-full ">
+    <div ref={ mapContainer } className="map-container col-span-4 relative w-full h-screen" />
+    <div className="grid grid-rows-6 col-span-2 relative w-full h-full">
+    <Slider />
+    <div className="grid grid-cols-3 ml-0 -mt-28 relative gaps-3 w-full ">
+      <p className='button'>units</p>
+      <p className='button'>city</p>
+      <p className='button'>button3</p>
+    </div>
     
-    <div ref={ mapContainer } className="map-container relative w-full inset-y-1" />
-    <div id='header' className="absolute grid grid-cols-3 bg-[color:var(--whitev)] w-full h-24 shadow-xl">
-      <div id='tile' className="bg-[color:var(--greenv)] py-3 px-5 h-24">
-        <h1 className="text-[color:var(--whitev)] text-4xl text-left">E-Scooter Data</h1>
-        <p className="text-[color:var(--grayv)] text-xl text-left">Chicago, IL, USA - 2020</p>
-      </div> 
-      <Slider />
-        </div>
+    <div className="text-lg absolute pt-44">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quis accusantium exercitationem deleniti eaque totam, mollitia blanditiis quisquam maiores 
+            quas culpa rerum vero corporis fugit magni voluptate repellat distinctio expedita tenetur. Lorem ipsum
+             dolor sit amet consectetur adipisicing elit. Cum in natus iste dicta quo, voluptatem quibusdam 
+             vitae aut deleniti provident culpa nobis ullam eos enim assumenda aliquam itaque veritatis. Facere.</div>
+    </div>
+      </div>
+        
     </>
 
   );

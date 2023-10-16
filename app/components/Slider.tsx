@@ -10,7 +10,7 @@ const Slider = () => {
 
     return (
         <>
-        <div className="w-6/7 left-10 ">
+        <div className="w-6/7 left-10 w-4/5">
         <ReactSlider 
         className="left-10 mt-14"
         marks
