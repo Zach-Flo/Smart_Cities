@@ -1,15 +1,16 @@
 import '../globals.css';
 import {Parallax, Background} from 'react-parallax';
-import { Animate, initTE } from "tw-elements";
-initTE({ Animate });
+//import { Animate, initTE } from "tw-elements";
+//initTE({ Animate });
 import Map from './map'
 import FallenScooters from '../img/FallenScooters.svg';
 import ScooterHub from '../img/ScooterHub.svg';
 import KidOnScooter from '../img/KidOnScooter.svg';
-import { url } from 'inspector';
+//import { url } from 'inspector';
 
 const information = () => {
     return (
+        
         <>
         <div className='grid grid-cols-10 gaps-10 shadow-xl bck'>
         <img src="uconn.png" className="h-auto w-full col-span-1 relative -top-5 left-1  drop-shadow-md filter grayscale p-7" alt="uconn logo"></img>

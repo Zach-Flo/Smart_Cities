@@ -20,7 +20,7 @@ const map = () => {
       center: [lng, lat],
       zoom: zoom
     })
-    map.current.scrollZoom.disable();
+    //map.current.scrollZoom.disable();
     map.current.on('load', () => {
       map.current!.addSource('map_data', {
         type: 'geojson',
@@ -62,7 +62,7 @@ const map = () => {
   });
   return (
     <>
-    <div className="grid grid-cols-6 gap-3  absolute w-screen h-full ">
+    <div className="grid grid-cols-6 gap-3 absolute w-screen h-full">
     <div ref={ mapContainer } className="map-container col-span-4 relative w-full h-screen" />
     <div className="grid grid-rows-6 col-span-2 relative w-full h-full">
     <Slider />
