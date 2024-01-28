@@ -41,6 +41,8 @@ const Slider = (): JSX.Element => {
               }}
             />
         </div>
+
+        <br></br>
         </>
   )
 }
