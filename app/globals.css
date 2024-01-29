@@ -38,21 +38,6 @@ html, body {
   @apply shadow-[0_0_0_8px_rgba(149_174_175_/_0.3)];
 }
 
-.cursor{
-  position: fixed;
-  height: 24px;
-  width: 24px;
-  border-radius: 50%;
-  border: solid whitesmoke 2px;
-  background-color: transparent;
-  box-shadow: 0px 0px 2px 2px  black;
-  z-index: 9999;
-  pointer-events: none;
-  
-
-
-}
-
 .fallen-scooter{
   position: relative;
   height: 100vh;

@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Information from './components/information'
 import Lenis from '@studio-freight/lenis'
-import { motion } from 'framer-motion'
+
 
 if (typeof window !== 'undefined') {
   const lenis = new Lenis()
@@ -50,11 +50,6 @@ function App (): JSX.Element {
   return (
     <>
       <div className="App">
-        <motion.div
-        className="cursor"
-        variants={variants}
-        animate="default"
-        />
         <Information />
       </div>
     </>
