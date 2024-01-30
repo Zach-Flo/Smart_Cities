@@ -47,7 +47,7 @@ const information = (): JSX.Element => {
                         <Map></Map>
                     </div>
                     <div className=' relative col-span-2'>
-                        <div className=' flex justify-center'>
+                        <div className=' flex justify-center mx-auto w-11/12 rounded-full shadow-inner z-40'>
                         <Slider></Slider>
                         </div>
                     </div>
