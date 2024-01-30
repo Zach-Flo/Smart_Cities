@@ -40,11 +40,11 @@ const information = (): JSX.Element => {
                 <div className=' grid grid-cols-2 h-screen'>
                     <div className=' m-auto w-96 h-96 bg-white z-20'>
                         <label className=' flex justify-center uppercase tracking-widest font-bold'>Prediction</label>
-                        <Map></Map>
+                        <Map name='pred'></Map>
                     </div>
                     <div className=' m-auto w-96 h-96 bg-white z-20'>
                         <label className=' flex justify-center uppercase tracking-widest font-bold'>Real</label>
-                        <Map></Map>
+                        <Map name='real'></Map>
                     </div>
                     <div className=' relative col-span-2'>
                         <div className=' flex justify-center mx-auto w-11/12 rounded-full shadow-inner z-40'>
