@@ -2,61 +2,88 @@
 import '../globals.css'
 import React, { useRef, useEffect, useState } from 'react'
 import mapboxgl from 'mapbox-gl'
-mapboxgl.accessToken = 'pk.eyJ1Ijoicm9iaW4tZ291bGQiLCJhIjoiY2xtdjRvN3prMGhoODJ2cXdhZWp6N3J1OSJ9.nANEhVAs8gYfm_4qGEF2aA'
+mapboxgl.accessToken = 'pk.eyJ1IjoiemFjaGZsbyIsImEiOiJjbG14cmcxdzUwcmpkMnVwNm1zZG95czRvIn0.z7u3W6JSpDIQUa5rZ7f0iA'
 
 const map = (): JSX.Element => {
   const mapContainer = useRef<any>(null)
   const map = useRef<mapboxgl.Map | null>(null)
   const [lng] = useState(-87.6298)
   const [lat] = useState(41.8781)
-  const [zoom] = useState(10)
-
+  const [zoom] = useState(8.5)
+  
   useEffect(() => {
     if (map.current) return // initialize map only once
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
-      style: 'mapbox://styles/mapbox/light-v11',
+      style: 'mapbox://styles/zachflo/clrzpjj8401h601p53t734mu2',
       center: [lng, lat],
       zoom
     })
+
     // map.current.scrollZoom.disable();
     map.current.on('load', () => {
       map.current!.addSource('map_data', {
         type: 'geojson',
         data: './sample.geojson'
       })
-      map.current!.addLayer({
-        id: 'trips',
-        type: 'circle',
-        source: 'map_data',
-        paint: {
-          'circle-radius': [
-            'interpolate',
-            ['linear'],
-            ['number', ['get', 'Trip Distance']],
-            100,
-            5,
-            50000,
-            24
-          ],
-          'circle-color': [
-            'interpolate',
-            ['linear'],
-            ['number', ['get', 'Trip Distance']],
-            0,
-            '#2DC4B2',
-            50,
-            '#3BB3C3',
-            1000,
-            '#669EC4',
-            5000,
-            '#8B88B6',
-            10000,
-            '#A2719B'
-          ],
-          'circle-opacity': 0.8
-        }
+      map.current!.addSource('maine', {
+        type: 'geojson',
+        data: {
+            type: 'Feature',
+            geometry: {
+                type: 'Polygon',
+                // These coordinates outline Maine.
+                coordinates: [
+                    [
+                        [-67.13734, 45.13745],
+                        [-66.96466, 44.8097],
+                        [-68.03252, 44.3252],
+                        [-69.06, 43.98],
+                        [-70.11617, 43.68405],
+                        [-70.64573, 43.09008],
+                        [-70.75102, 43.08003],
+                        [-70.79761, 43.21973],
+                        [-70.98176, 43.36789],
+                        [-70.94416, 43.46633],
+                        [-71.08482, 45.30524],
+                        [-70.66002, 45.46022],
+                        [-70.30495, 45.91479],
+                        [-70.00014, 46.69317],
+                        [-69.23708, 47.44777],
+                        [-68.90478, 47.18479],
+                        [-68.2343, 47.35462],
+                        [-67.79035, 47.06624],
+                        [-67.79141, 45.70258],
+                        [-67.13734, 45.13745]
+                    ]
+                ]
+            }
+        } as GeoJSON.Feature
       })
+      // Add a new layer to visualize the polygon.
+      map.current!.addLayer({
+        'id': 'maine',
+        'type': 'fill',
+        'source': 'maine', // reference the data source
+        'layout': {},
+        'paint': {
+            'fill-color': '#0080ff', // blue color fill
+            'fill-opacity': 0.5
+        }
+    });
+    // Add a black outline around the polygon.
+    map.current!.addLayer({
+        'id': 'outline',
+        'type': 'line',
+        'source': 'maine',
+        'layout': {},
+        'paint': {
+            'line-color': '#000',
+            'line-width': 3
+        }
+    })
+    
+
     })
   })
   return (
