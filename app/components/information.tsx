@@ -37,12 +37,12 @@ const information = (): JSX.Element => {
             vitae aut deleniti provident culpa nobis ullam eos enim assumenda aliquam itaque veritatis. Facere.
             </div>
             <Parallax className='kid-on-scooter' strength={400}>
-                <div className=' grid grid-cols-2 h-screen'>
-                    <div className=' m-auto w-96 h-96 bg-white z-20'>
-                        <label className=' flex justify-center uppercase tracking-widest font-bold'>Prediction</label>
+                <div className=' grid grid-cols-2 h-screen '>
+                    <div className=' m-auto w-96 h-96 bg-white z-20 rounded-lg'>
+                        <label className=' flex justify-center uppercase tracking-widest font-bold '>Prediction</label>
                         <Map name='pred'></Map>
                     </div>
-                    <div className=' m-auto w-96 h-96 bg-white z-20'>
+                    <div className=' m-auto w-96 h-96 bg-white z-20 rounded-lg'>
                         <label className=' flex justify-center uppercase tracking-widest font-bold'>Real</label>
                         <Map name='real'></Map>
                     </div>

@@ -49,7 +49,7 @@ const map = ({ name }): JSX.Element => {
   return (
     <>
       <button id={`centerButton${name}`} className='button-6 '>Center</button>
-      <div ref={ mapContainer } className="w-full h-full"></div>
+      <div ref={ mapContainer } className="w-full h-full rounded-lg"></div>
     </>
 
   )
