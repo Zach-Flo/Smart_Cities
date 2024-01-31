@@ -23,7 +23,6 @@
 
 
 html, body {
-  cursor: none;
   overflow:hidden;
 }
 
@@ -133,7 +132,6 @@ html, body {
     inset 0.3em 0.3em 0 0 var(--greenv);
 }
 .button:hover {
-  cursor: none;
   transform: scale(0.95);
   color: var(--whitev);
   box-shadow: 
