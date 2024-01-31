@@ -1,84 +1,55 @@
 'use client'
 import '../globals.css'
-import Slider from './Slider'
 import React, { useRef, useEffect, useState } from 'react'
 import mapboxgl from 'mapbox-gl'
-mapboxgl.accessToken = 'pk.eyJ1Ijoicm9iaW4tZ291bGQiLCJhIjoiY2xtdjRvN3prMGhoODJ2cXdhZWp6N3J1OSJ9.nANEhVAs8gYfm_4qGEF2aA'
+// Import Mapbox CSS
+import 'mapbox-gl/dist/mapbox-gl.css';
+mapboxgl.accessToken = 'pk.eyJ1IjoiemFjaGZsbyIsImEiOiJjbG14cmcxdzUwcmpkMnVwNm1zZG95czRvIn0.z7u3W6JSpDIQUa5rZ7f0iA'
 
-const map = (): JSX.Element => {
+const map = ({ name }): JSX.Element => {
   const mapContainer = useRef<any>(null)
   const map = useRef<mapboxgl.Map | null>(null)
   const [lng] = useState(-87.6298)
   const [lat] = useState(41.8781)
-  const [zoom] = useState(10)
-
+  const [zoom] = useState(8.5)
+  
   useEffect(() => {
     if (map.current) return // initialize map only once
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
-      style: 'mapbox://styles/mapbox/light-v11',
+      style: 'mapbox://styles/zachflo/clrzpjj8401h601p53t734mu2',
       center: [lng, lat],
       zoom
     })
+
+    // Add button functionality
+    const centerButton = document.getElementById('centerButton' + name);
+    if(centerButton){
+      centerButton.addEventListener('click', () => {
+        map.current!.flyTo({
+          center: [-87.6298, 41.8781], // Replace with the coordinates you want to center the map to
+          zoom: 8.5,
+          essential: true // This animation is considered essential with respect to prefers-reduced-motion
+        });
+      });
+    }
+    
+
     // map.current.scrollZoom.disable();
     map.current.on('load', () => {
       map.current!.addSource('map_data', {
         type: 'geojson',
         data: './sample.geojson'
       })
-      map.current!.addLayer({
-        id: 'trips',
-        type: 'circle',
-        source: 'map_data',
-        paint: {
-          'circle-radius': [
-            'interpolate',
-            ['linear'],
-            ['number', ['get', 'Trip Distance']],
-            100,
-            5,
-            50000,
-            24
-          ],
-          'circle-color': [
-            'interpolate',
-            ['linear'],
-            ['number', ['get', 'Trip Distance']],
-            0,
-            '#2DC4B2',
-            50,
-            '#3BB3C3',
-            1000,
-            '#669EC4',
-            5000,
-            '#8B88B6',
-            10000,
-            '#A2719B'
-          ],
-          'circle-opacity': 0.8
-        }
-      })
     })
+
+
+
   })
   return (
     <>
-    <div className="grid grid-cols-6 gap-3 absolute w-screen h-full">
-      <div ref={ mapContainer } className="map-container col-span-4 relative w-full h-screen" />
-      <div className="grid grid-rows-6 col-span-2 relative w-full h-full">
-      <Slider />
-      <div className="grid grid-cols-3 ml-0 -mt-28 relative gaps-3 w-full ">
-        <p className='button'>units</p>
-        <p className='button'>city</p>
-        <p className='button'>button3</p>
-      </div>
-
-      <div className="text-lg absolute pt-44">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Quis accusantium exercitationem deleniti eaque totam, mollitia blanditiis quisquam maiores
-              quas culpa rerum vero corporis fugit magni voluptate repellat distinctio expedita tenetur. Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Cum in natus iste dicta quo, voluptatem quibusdam
-              vitae aut deleniti provident culpa nobis ullam eos enim assumenda aliquam itaque veritatis. Facere.</div>
-      </div>
-    </div>
+      <button id={`centerButton${name}`} className='button-6 '>Center</button>
+      <div ref={ mapContainer } className="w-full h-full rounded-lg"></div>
     </>
 
   )

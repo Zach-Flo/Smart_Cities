@@ -10,9 +10,9 @@ function getTime (hour): string {
 const Slider = (): JSX.Element => {
   return (
         <>
-        <div className="w-6/7 left-10 w-4/5">
+        <div className=" w-5/6 ">
             <ReactSlider
-              className="left-10 mt-14"
+              className=" w-11/12 mt-14 mx-auto"
               marks
               min={0}
               max={23}
