@@ -12,6 +12,7 @@ const map = ({ name }): JSX.Element => {
   const [lng] = useState(-87.6298)
   const [lat] = useState(41.8781)
   const [zoom] = useState(8.5)
+  const [maxZoom] = useState(8.5)
   
   useEffect(() => {
     if (map.current) return // initialize map only once
@@ -19,7 +20,8 @@ const map = ({ name }): JSX.Element => {
       container: mapContainer.current,
       style: 'mapbox://styles/zachflo/clrzpjj8401h601p53t734mu2',
       center: [lng, lat],
-      zoom
+      zoom,
+      maxZoom
     })
 
     // Add button functionality
