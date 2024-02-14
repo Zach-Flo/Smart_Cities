@@ -6,13 +6,14 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css';
 mapboxgl.accessToken = 'pk.eyJ1IjoiemFjaGZsbyIsImEiOiJjbG14cmcxdzUwcmpkMnVwNm1zZG95czRvIn0.z7u3W6JSpDIQUa5rZ7f0iA'
 
+
 const map = ({ name }): JSX.Element => {
   const mapContainer = useRef<any>(null)
   const map = useRef<mapboxgl.Map | null>(null)
   const [lng] = useState(-87.6298)
   const [lat] = useState(41.8781)
   const [zoom] = useState(8.5)
-  const [maxZoom] = useState(8.5)
+  const [minZoom] = useState(8.6)
   
   useEffect(() => {
     if (map.current) return // initialize map only once
@@ -21,7 +22,7 @@ const map = ({ name }): JSX.Element => {
       style: 'mapbox://styles/zachflo/clrzpjj8401h601p53t734mu2',
       center: [lng, lat],
       zoom,
-      maxZoom
+      minZoom
     })
 
     // Add button functionality
