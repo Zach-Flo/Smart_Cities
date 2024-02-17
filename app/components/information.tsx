@@ -10,9 +10,11 @@ import Slider from './Slider'
 const information = (): JSX.Element => {
   return (
         <>
-        <div className='grid grid-cols-10 gaps-10 shadow-xl bck'>
-        <img src="uconn.png" className="h-auto w-full col-span-1 relative -top-5 left-1  drop-shadow-md filter grayscale p-7" alt="uconn logo"></img>
-        <div className='col-span-6 justify-center h-2/3 drop-shadow-md img-txt   '>Exploring E-Scooter Trends</div>
+        <div className="grid grid-cols-10 items-center shadow-xl bck">
+            <img src="uconn.png" className="h-auto w-full col-span-1 relative left-4 drop-shadow-md filter grayscale p-7" alt="UConn logo" />
+            <div className="col-span-9 ml-10">
+                <span className='text-5xl tracking-widest text-uppercase text-slate-950 text-blackv'>Exploring E-Scooter Trends</span>
+            </div>
         </div>
         <div className='absolute top-2/3 z-50 right-10 p-9 text-3xl animate-fadein'>
         <div className='text-white font-bold'>A deep dive into data behind </div>
@@ -22,7 +24,7 @@ const information = (): JSX.Element => {
                 <Background className=''>
                     <div className='content '>
                         <img
-                        src="https://s3-prod.crainsnewyork.com/Screen%20Shot%202023-06-16%20at%201.15.42%20PM.png"
+                        src="https://cdn.sanity.io/images/xl8ls2xi/production/73097d2b39bf5fa68fa5fcb169d5151869fbff3b-2000x1156.jpg?q=85&auto=format"
                         className='z-10 min-h-screen  min-w-min '
                         alt='scooter'>
                         </img>
