@@ -4,7 +4,9 @@ import React, { useRef, useEffect, useState } from 'react'
 import mapboxgl from 'mapbox-gl'
 // Import Mapbox CSS
 import 'mapbox-gl/dist/mapbox-gl.css';
-mapboxgl.accessToken = 'pk.eyJ1IjoiemFjaGZsbyIsImEiOiJjbG14cmcxdzUwcmpkMnVwNm1zZG95czRvIn0.z7u3W6JSpDIQUa5rZ7f0iA'
+
+mapboxgl.accessToken = "pk.eyJ1IjoiemFjaGZsbyIsImEiOiJjbHNxbWRzeWExMXpmMmxvd3NmNmNuYzF0In0.95X4ks8jqLaf-pacJX_y4A"
+
 
 
 const map = ({ name }): JSX.Element => {
