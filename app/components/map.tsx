@@ -27,7 +27,7 @@ const map = ({ name }): JSX.Element => {
       minZoom
     })
 
-    // Add button functionality
+    // Centers the camera
     const centerButton = document.getElementById('centerButton' + name);
     if(centerButton){
       centerButton.addEventListener('click', () => {
@@ -38,7 +38,7 @@ const map = ({ name }): JSX.Element => {
         });
       });
     }
-    
+    // Load the data source
     map.current.on('load', () => {
       map.current!.addSource('rides', {
         type: 'geojson',
@@ -66,6 +66,7 @@ const map = ({ name }): JSX.Element => {
             "fill-opacity": 0.7 // Adjust the opacity of the fill color
         }
       });
+      // Add the region names layer
       map.current!.addLayer(
         {
           "id": "ridesFreq1",
@@ -85,6 +86,7 @@ const map = ({ name }): JSX.Element => {
           "source": "rides"
         }
       )
+      // Add the borders for regions
       map.current!.addLayer({
         "id": "ridesBorders", // Unique ID for the layer
         "type": "line", // Type of layer (line or fill)
