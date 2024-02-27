@@ -21,7 +21,7 @@ const map = ({ name }): JSX.Element => {
     if (map.current) return // initialize map only once
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
-      style: 'mapbox://styles/zachflo/clrzpjj8401h601p53t734mu2',
+      style: 'mapbox://styles/zachflo/clt4vuay502ia01p6hb6sf7w3',
       center: [lng, lat],
       zoom,
       minZoom
@@ -39,14 +39,66 @@ const map = ({ name }): JSX.Element => {
       });
     }
     
-
-    // map.current.scrollZoom.disable();
     map.current.on('load', () => {
-      map.current!.addSource('map_data', {
+      map.current!.addSource('rides', {
         type: 'geojson',
-        data: './sample.geojson'
-      })
+        data: './FrequencyOfRides.geojson'
+      });
+      // Add a choropleth layer
+      map.current!.addLayer({
+        "id": "ridesChoropleth",
+        "type": "fill",
+        "source": "rides",
+        "paint": {
+            "fill-color": [
+                "interpolate",
+                ["linear"],
+                ["get", "rides"],
+                0, "#f7f7f7", // Color for lowest frequency
+                20, "#ffffb2", // Color for low frequency
+                30, "#fed976", // Color for moderate frequency
+                40, "#feb24c", // Color for higher frequency
+                50, "#fd8d3c", // Color for high frequency
+                60, "#fc4e2a", // Color for very high frequency
+                70, "#e31a1c", // Color for extremely high frequency
+                80, "#bd0026", // Color for maximum frequency
+            ],
+            "fill-opacity": 0.7 // Adjust the opacity of the fill color
+        }
+      });
+      map.current!.addLayer(
+        {
+          "id": "ridesFreq1",
+          "type": "symbol",
+          "paint": {
+              "text-halo-color": "hsla(0, 0%, 0%, 0.04)"
+          },
+          "layout": {
+              "text-field": ["to-string", ["get", "community"]],
+              "text-font": ["Poppins Regular", "Arial Unicode MS Regular"],
+              "text-letter-spacing": 0.3,
+              "text-size": 7,
+              "text-padding": 1,
+              "text-transform": "uppercase",
+              "text-justify": ["step", ["zoom"], "center", 22, "center"]
+          },
+          "source": "rides"
+        }
+      )
+      map.current!.addLayer({
+        "id": "ridesBorders", // Unique ID for the layer
+        "type": "line", // Type of layer (line or fill)
+        "source": "rides", // Use the same source as the symbol layer
+        "paint": {
+            "line-color": "#000", // Border color
+            "line-width": .2 // Border width
+        }
+      });
+      
     })
+
+
+    
 
 
 
