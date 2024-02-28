@@ -9,7 +9,7 @@ mapboxgl.accessToken = "pk.eyJ1IjoiemFjaGZsbyIsImEiOiJjbHNxbWRzeWExMXpmMmxvd3NmN
 
 
 
-const map = ({ name }): JSX.Element => {
+const map = ({ name, sample }): JSX.Element => {
   const mapContainer = useRef<any>(null)
   const map = useRef<mapboxgl.Map | null>(null)
   const [lng] = useState(-87.6298)
@@ -42,7 +42,7 @@ const map = ({ name }): JSX.Element => {
     map.current.on('load', () => {
       map.current!.addSource('rides', {
         type: 'geojson',
-        data: './FrequencyOfRides.geojson'
+        data: sample
       });
       // Add a choropleth layer
       map.current!.addLayer({

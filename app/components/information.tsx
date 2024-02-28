@@ -43,11 +43,11 @@ const information = (): JSX.Element => {
 
                     <div className=' m-auto w-96 h-96 bg-white z-20 rounded-lg'>
                         <label className=' flex justify-center uppercase tracking-widest font-bold '>Prediction</label>
-                        <Map name='pred'></Map>
+                        <Map name='pred' sample='./PredictionData.geojson'></Map>
                     </div>
                     <div className=' m-auto w-96 h-96 bg-white z-20 rounded-lg'>
                         <label className=' flex justify-center uppercase tracking-widest font-bold'>Real</label>
-                        <Map name='real'></Map>
+                        <Map name='real' sample='./RealData.geojson'></Map>
                     </div>
                     <div className='relative col-span-2'>
                         <div className='flex justify-center mx-auto w-11/12 rounded-full shadow-inner z-40'>
