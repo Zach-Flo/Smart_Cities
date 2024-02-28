@@ -173,13 +173,47 @@ const map = ({ name, sample }): JSX.Element => {
           }
         }, interval);
       });
-      
 
+        // Add hover interactivity
+        let popup: mapboxgl.Popup | null = null; // Initialize popup reference
+        map.current!.on('mousemove', 'ridesFreq1', function (e) {
+          // Change the cursor style to a pointer
+          map.current!.getCanvas().style.cursor = 'pointer';
+
+          // Get the properties of the hovered feature
+          if (e.features){
+            var hoveredFeature = e.features[0].properties;
+
+            // Display information in a tooltip or popup
+            if (hoveredFeature){
+              var regionName = hoveredFeature.community;
+              var numRides = hoveredFeature.rides;
+            }
+            
+            var tooltipText = regionName + ' - Number of rides: ' + numRides;
+
+            // Create a tooltip and display it at the hovered location
+            if (!popup){
+              popup = new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(tooltipText)
+                .addTo(map.current!);
+            }
+          }
+      });
+
+      // Reset the cursor style and remove the popup when the mouse leaves the region
+      map.current!.on('mouseleave', 'ridesFreq1', function () {
+        map.current!.getCanvas().style.cursor = 'default';
+        
+
+        // Close the popup if it exists
+        if (popup) {
+            popup.remove();
+            popup = null; // Reset popup reference
+        }
+      });
     }
-    
-
-
-
   })
   return (
     <>
