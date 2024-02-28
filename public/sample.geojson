@@ -1,2282 +1,2283 @@
 {
-   "type": "FeatureCollection",
-   "features": [
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64226608,41.78006847 ]
-    },
-    "properties": {
-    "Trip ID":"3eb9a2a3-3266-4559-b1ec-e83a6f7972ab",
-    "Start Time":"08/12/2020 05:00:00 AM",
-    "End Time":"08/12/2020 05:00:00 AM",
-    "Trip Distance": 1153,
-    "Trip Duration": 1027,
-    "Vendor":"spin",
-    "Start Community Area Number":68,
-    "End Community Area Number":68,
-    "Start Community Area Name":"ENGLEWOOD",
-    "End Community Area Name":"ENGLEWOOD",
-    "Start Centroid Location":"POINT (-87.64226608 41.78006847)",
-    "End Centroid Latitude":41.78006847,
-    "End Centroid Longitude":-87.64226608,
-    "End Centroid Location":"POINT (-87.64226608 41.78006847)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"82dd7b8f-8de0-4f25-829b-b32bf47e8419",
-    "Start Time":"08/12/2020 05:00:00 AM",
-    "End Time":"08/12/2020 05:00:00 AM",
-    "Trip Distance":17,
-    "Trip Duration":91,
-    "Vendor":"spin",
-    "Start Community Area Number":22,
-    "End Community Area Number":21,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"AVONDALE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.93928256,
-    "End Centroid Longitude":-87.71075685,
-    "End Centroid Location":"POINT (-87.71075685 41.93928256)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65514456,41.96543532 ]
-    },
-    "properties": {
-    "Trip ID":"9120cbf3-f749-49b6-b894-0e6e065cd731",
-    "Start Time":"08/12/2020 05:00:00 AM",
-    "End Time":"08/12/2020 05:00:00 AM",
-    "Trip Distance": 2883,
-    "Trip Duration":724,
-    "Vendor":"spin",
-    "Start Community Area Number":3,
-    "End Community Area Number":6,
-    "Start Community Area Name":"UPTOWN",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.67517932,41.84833501 ]
-    },
-    "properties": {
-    "Trip ID":"cf2e4abc-2649-49be-924b-468a1aefc4c8",
-    "Start Time":"08/12/2020 05:00:00 AM",
-    "End Time":"08/12/2020 05:00:00 AM",
-    "Trip Distance":5,
-    "Trip Duration":21,
-    "Vendor":"spin",
-    "Start Community Area Number":31,
-    "End Community Area Number":31,
-    "Start Community Area Name":"LOWER WEST SIDE",
-    "End Community Area Name":"LOWER WEST SIDE",
-    "Start Centroid Location":"POINT (-87.67517932 41.84833501)",
-    "End Centroid Latitude":41.84833501,
-    "End Centroid Longitude":-87.67517932,
-    "End Centroid Location":"POINT (-87.67517932 41.84833501)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"0448afb5-ab64-4090-b528-e3050e7eb0f2",
-    "Start Time":"08/12/2020 07:00:00 AM",
-    "End Time":"08/12/2020 07:00:00 AM",
-    "Trip Distance": 1179,
-    "Trip Duration":245,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"5b7425e1-0b21-46d5-9ac1-55f2f1777738",
-    "Start Time":"08/12/2020 07:00:00 AM",
-    "End Time":"08/12/2020 07:00:00 AM",
-    "Trip Distance": 3815,
-    "Trip Duration":840,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":3,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"UPTOWN",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.96543532,
-    "End Centroid Longitude":-87.65514456,
-    "End Centroid Location":"POINT (-87.65514456 41.96543532)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"18433ae5-4c8b-4c86-89cd-4e649507bcfe",
-    "Start Time":"08/12/2020 07:00:00 AM",
-    "End Time":"08/12/2020 07:00:00 AM",
-    "Trip Distance":13,
-    "Trip Duration":101,
-    "Vendor":"spin",
-    "Start Community Area Number":7,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"2486c853-5196-4e59-b633-a63e8cc375ab",
-    "Start Time":"08/12/2020 07:00:00 AM",
-    "End Time":"08/12/2020 07:00:00 AM",
-    "Trip Distance":24,
-    "Trip Duration":105,
-    "Vendor":"spin",
-    "Start Community Area Number":7,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"a5b7250d-51b9-4504-b849-bb7b04bd81d3",
-    "Start Time":"08/12/2020 07:00:00 AM",
-    "End Time":"08/12/2020 07:00:00 AM",
-    "Trip Distance": 4709,
-    "Trip Duration": 1421,
-    "Vendor":"spin",
-    "Start Community Area Number":7,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"3a60d75f-86a2-449c-958d-e89e484dbf2a",
-    "Start Time":"08/12/2020 07:00:00 AM",
-    "End Time":"08/12/2020 07:00:00 AM",
-    "Trip Distance": 4642,
-    "Trip Duration": 1285,
-    "Vendor":"spin",
-    "Start Community Area Number":7,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"87efd199-16da-41b0-ab20-b3177c1d8e9e",
-    "Start Time":"08/12/2020 07:00:00 AM",
-    "End Time":"08/12/2020 07:00:00 AM",
-    "Trip Distance":365,
-    "Trip Duration":110,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.73348152,41.95287655 ]
-    },
-    "properties": {
-    "Trip ID":"5a7f8b18-ff8b-4c8b-8e45-4f0ebe952bd2",
-    "Start Time":"08/12/2020 07:00:00 AM",
-    "End Time":"08/12/2020 07:00:00 AM",
-    "Trip Distance":8,
-    "Trip Duration":152,
-    "Vendor":"spin",
-    "Start Community Area Number":16,
-    "End Community Area Number":16,
-    "Start Community Area Name":"IRVING PARK",
-    "End Community Area Name":"IRVING PARK",
-    "Start Centroid Location":"POINT (-87.73348152 41.95287655)",
-    "End Centroid Latitude":41.95287655,
-    "End Centroid Longitude":-87.73348152,
-    "End Centroid Location":"POINT (-87.73348152 41.95287655)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.66434312,41.98711448 ]
-    },
-    "properties": {
-    "Trip ID":"28b787ff-de26-48ce-9840-5803129b6962",
-    "Start Time":"08/12/2020 07:00:00 AM",
-    "End Time":"08/12/2020 07:00:00 AM",
-    "Trip Distance":7,
-    "Trip Duration":50,
-    "Vendor":"bird",
-    "Start Community Area Number":77,
-    "End Community Area Number":77,
-    "Start Community Area Name":"EDGEWATER",
-    "End Community Area Name":"EDGEWATER",
-    "Start Centroid Location":"POINT (-87.66434312 41.98711448)",
-    "End Centroid Latitude":41.98711448,
-    "End Centroid Longitude":-87.66434312,
-    "End Centroid Location":"POINT (-87.66434312 41.98711448)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"063f3b4d-ec43-47b2-8ad6-760fdf46f779",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 22692,
-    "Trip Duration": 8141,
-    "Vendor":"bird",
-    "Start Community Area Number":22,
-    "End Community Area Number":22,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.61937863,41.7137828 ]
-    },
-    "properties": {
-    "Trip ID":"d65f0cf6-30ce-45fe-ab2d-7d8d11d73062",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 08:00:00 AM",
-    "Trip Distance":543,
-    "Trip Duration":942,
-    "Vendor":"spin",
-    "Start Community Area Number":49,
-    "End Community Area Number":49,
-    "Start Community Area Name":"ROSELAND",
-    "End Community Area Name":"ROSELAND",
-    "Start Centroid Location":"POINT (-87.61937863 41.7137828)",
-    "End Centroid Latitude":41.7137828,
-    "End Centroid Longitude":-87.61937863,
-    "End Centroid Location":"POINT (-87.61937863 41.7137828)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"995aca16-e33e-4f62-98f1-be4f473ae645",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 08:00:00 AM",
-    "Trip Distance":15,
-    "Trip Duration":110,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"8c4df140-8dec-4773-9d9c-bf7463a28042",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 08:00:00 AM",
-    "Trip Distance": 4931,
-    "Trip Duration": 1142,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":3,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"UPTOWN",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.96543532,
-    "End Centroid Longitude":-87.65514456,
-    "End Centroid Location":"POINT (-87.65514456 41.96543532)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65514456,41.96543532 ]
-    },
-    "properties": {
-    "Trip ID":"8e4f04ef-94f6-4f61-b31f-a7033ea6f9cc",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 08:00:00 AM",
-    "Trip Distance":24,
-    "Trip Duration":71,
-    "Vendor":"spin",
-    "Start Community Area Number":3,
-    "End Community Area Number":3,
-    "Start Community Area Name":"UPTOWN",
-    "End Community Area Name":"UPTOWN",
-    "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
-    "End Centroid Latitude":41.96543532,
-    "End Centroid Longitude":-87.65514456,
-    "End Centroid Location":"POINT (-87.65514456 41.96543532)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65514456,41.96543532 ]
-    },
-    "properties": {
-    "Trip ID":"091ff507-b351-40d0-b4b8-2f0d0c60dcab",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 08:00:00 AM",
-    "Trip Distance":604,
-    "Trip Duration":174,
-    "Vendor":"spin",
-    "Start Community Area Number":3,
-    "End Community Area Number":3,
-    "Start Community Area Name":"UPTOWN",
-    "End Community Area Name":"UPTOWN",
-    "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
-    "End Centroid Latitude":41.96543532,
-    "End Centroid Longitude":-87.65514456,
-    "End Centroid Location":"POINT (-87.65514456 41.96543532)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.75400818,41.92707325 ]
-    },
-    "properties": {
-    "Trip ID":"88d26323-f194-4fdc-bf1d-276fc0b984a0",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 08:00:00 AM",
-    "Trip Distance":16,
-    "Trip Duration": 1245,
-    "Vendor":"lime",
-    "Start Community Area Number":19,
-    "End Community Area Number":19,
-    "Start Community Area Name":"BELMONT CRAGIN",
-    "End Community Area Name":"BELMONT CRAGIN",
-    "Start Centroid Location":"POINT (-87.75400818 41.92707325)",
-    "End Centroid Latitude":41.92707325,
-    "End Centroid Longitude":-87.75400818,
-    "End Centroid Location":"POINT (-87.75400818 41.92707325)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65514456,41.96543532 ]
-    },
-    "properties": {
-    "Trip ID":"dbfeb629-2f20-44a3-82a2-7e7cb0328430",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 4714,
-    "Trip Duration": 2548,
-    "Vendor":"spin",
-    "Start Community Area Number":3,
-    "End Community Area Number":3,
-    "Start Community Area Name":"UPTOWN",
-    "End Community Area Name":"UPTOWN",
-    "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
-    "End Centroid Latitude":41.96543532,
-    "End Centroid Longitude":-87.65514456,
-    "End Centroid Location":"POINT (-87.65514456 41.96543532)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"0e0d68ac-5047-4a12-ae3c-16b514f83d1d",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 08:00:00 AM",
-    "Trip Distance": 1222,
-    "Trip Duration":390,
-    "Vendor":"spin",
-    "Start Community Area Number":7,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65514456,41.96543532 ]
-    },
-    "properties": {
-    "Trip ID":"d877b26d-71b1-4c05-b8f4-5f1f04f2f9b8",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 3782,
-    "Trip Duration":878,
-    "Vendor":"spin",
-    "Start Community Area Number":3,
-    "End Community Area Number":6,
-    "Start Community Area Name":"UPTOWN",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65514456,41.96543532 ]
-    },
-    "properties": {
-    "Trip ID":"a4811e0b-0e0f-4acb-89d6-966f8daf3e26",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 08:00:00 AM",
-    "Trip Distance": 1444,
-    "Trip Duration":445,
-    "Vendor":"spin",
-    "Start Community Area Number":3,
-    "End Community Area Number":6,
-    "Start Community Area Name":"UPTOWN",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.75400818,41.92707325 ]
-    },
-    "properties": {
-    "Trip ID":"86ec3942-63b9-4b0e-b20d-34747645a0ac",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":59,
-    "Trip Duration": 1086,
-    "Vendor":"lime",
-    "Start Community Area Number":19,
-    "End Community Area Number":19,
-    "Start Community Area Name":"BELMONT CRAGIN",
-    "End Community Area Name":"BELMONT CRAGIN",
-    "Start Centroid Location":"POINT (-87.75400818 41.92707325)",
-    "End Centroid Latitude":41.92707325,
-    "End Centroid Longitude":-87.75400818,
-    "End Centroid Location":"POINT (-87.75400818 41.92707325)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"04de73ea-65b8-4ceb-ab6e-bdbc86b0ca2f",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 2871,
-    "Trip Duration": 1097,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"92988bb2-6748-4e7f-89c1-406c66a433db",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 1795,
-    "Trip Duration":835,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"2f55894a-985a-41ed-8da2-934321b256b9",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 3142,
-    "Trip Duration":594,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.75400818,41.92707325 ]
-    },
-    "properties": {
-    "Trip ID":"4d4957c5-e94e-4897-b25b-2588729daba2",
-    "Start Time":"08/12/2020 08:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":28,
-    "Trip Duration":856,
-    "Vendor":"lime",
-    "Start Community Area Number":19,
-    "End Community Area Number":19,
-    "Start Community Area Name":"BELMONT CRAGIN",
-    "End Community Area Name":"BELMONT CRAGIN",
-    "Start Centroid Location":"POINT (-87.75400818 41.92707325)",
-    "End Centroid Latitude":41.92707325,
-    "End Centroid Longitude":-87.75400818,
-    "End Centroid Location":"POINT (-87.75400818 41.92707325)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"2195caad-fe52-4843-84db-43946e32565b",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":13,
-    "Trip Duration":66,
-    "Vendor":"spin",
-    "Start Community Area Number":22,
-    "End Community Area Number":22,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.67556756,41.90145875 ]
-    },
-    "properties": {
-    "Trip ID":"f8164268-3784-4b04-a1b6-3ead670bbf9a",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":32,
-    "Trip Duration":233,
-    "Vendor":"spin",
-    "Start Community Area Number":24,
-    "End Community Area Number":24,
-    "Start Community Area Name":"WEST TOWN",
-    "End Community Area Name":"WEST TOWN",
-    "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
-    "End Centroid Latitude":41.90145875,
-    "End Centroid Longitude":-87.67556756,
-    "End Centroid Location":"POINT (-87.67556756 41.90145875)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.71075685,41.93928256 ]
-    },
-    "properties": {
-    "Trip ID":"441ddd3d-d504-49bc-92b7-72b86da128dd",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 2446,
-    "Trip Duration":505,
-    "Vendor":"spin",
-    "Start Community Area Number":21,
-    "End Community Area Number":22,
-    "Start Community Area Name":"AVONDALE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.71075685 41.93928256)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.79851442,41.92967976 ]
-    },
-    "properties": {
-    "Trip ID":"1952dbb3-4609-4f05-8d84-43ae0a835c6f",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 2781,
-    "Trip Duration":810,
-    "Vendor":"spin",
-    "Start Community Area Number":18,
-    "End Community Area Number":19,
-    "Start Community Area Name":"MONTCLARE",
-    "End Community Area Name":"BELMONT CRAGIN",
-    "Start Centroid Location":"POINT (-87.79851442 41.92967976)",
-    "End Centroid Latitude":41.92707325,
-    "End Centroid Longitude":-87.75400818,
-    "End Centroid Location":"POINT (-87.75400818 41.92707325)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.79851442,41.92967976 ]
-    },
-    "properties": {
-    "Trip ID":"310d68be-8fc4-4355-99eb-e6f08ee44273",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 2771,
-    "Trip Duration":874,
-    "Vendor":"spin",
-    "Start Community Area Number":18,
-    "End Community Area Number":19,
-    "Start Community Area Name":"MONTCLARE",
-    "End Community Area Name":"BELMONT CRAGIN",
-    "Start Centroid Location":"POINT (-87.79851442 41.92967976)",
-    "End Centroid Latitude":41.92707325,
-    "End Centroid Longitude":-87.75400818,
-    "End Centroid Location":"POINT (-87.75400818 41.92707325)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70125285,41.87868645 ]
-    },
-    "properties": {
-    "Trip ID":"0a49cc5a-5e75-47da-bad7-b0987da5378b",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 2017,
-    "Trip Duration":534,
-    "Vendor":"bird",
-    "Start Community Area Number":27,
-    "End Community Area Number":27,
-    "Start Community Area Name":"EAST GARFIELD PARK",
-    "End Community Area Name":"EAST GARFIELD PARK",
-    "Start Centroid Location":"POINT (-87.70125285 41.87868645)",
-    "End Centroid Latitude":41.87868645,
-    "End Centroid Longitude":-87.70125285,
-    "End Centroid Location":"POINT (-87.70125285 41.87868645)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70125285,41.87868645 ]
-    },
-    "properties": {
-    "Trip ID":"6507b161-9af6-4954-ad48-c51a6377c547",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 5339,
-    "Trip Duration": 2910,
-    "Vendor":"spin",
-    "Start Community Area Number":27,
-    "End Community Area Number":27,
-    "Start Community Area Name":"EAST GARFIELD PARK",
-    "End Community Area Name":"EAST GARFIELD PARK",
-    "Start Centroid Location":"POINT (-87.70125285 41.87868645)",
-    "End Centroid Latitude":41.87868645,
-    "End Centroid Longitude":-87.70125285,
-    "End Centroid Location":"POINT (-87.70125285 41.87868645)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"3045e393-9f81-4364-87ba-ca7b419b0024",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 7299,
-    "Trip Duration": 3455,
-    "Vendor":"bird",
-    "Start Community Area Number":22,
-    "End Community Area Number":22,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.72395524,41.90081341 ]
-    },
-    "properties": {
-    "Trip ID":"8ac8becc-062a-4f1b-83ae-42d2abc7b4a9",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":22,
-    "Trip Duration":395,
-    "Vendor":"bird",
-    "Start Community Area Number":23,
-    "End Community Area Number":23,
-    "Start Community Area Name":"HUMBOLDT PARK",
-    "End Community Area Name":"HUMBOLDT PARK",
-    "Start Centroid Location":"POINT (-87.72395524 41.90081341)",
-    "End Centroid Latitude":41.90081341,
-    "End Centroid Longitude":-87.72395524,
-    "End Centroid Location":"POINT (-87.72395524 41.90081341)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"ed3f2bf6-6f10-4878-8dba-e791796455b6",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 5097,
-    "Trip Duration": 1076,
-    "Vendor":"spin",
-    "Start Community Area Number":22,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.66461906,41.87425419 ]
-    },
-    "properties": {
-    "Trip ID":"8aea0a98-077f-4653-b2bb-9657fd39a175",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":740,
-    "Trip Duration": 2334,
-    "Vendor":"lime",
-    "Start Community Area Number":28,
-    "End Community Area Number":28,
-    "Start Community Area Name":"NEAR WEST SIDE",
-    "End Community Area Name":"NEAR WEST SIDE",
-    "Start Centroid Location":"POINT (-87.66461906 41.87425419)",
-    "End Centroid Latitude":41.87425419,
-    "End Centroid Longitude":-87.66461906,
-    "End Centroid Location":"POINT (-87.66461906 41.87425419)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65514456,41.96543532 ]
-    },
-    "properties": {
-    "Trip ID":"35ba842b-2f2e-4919-b4db-e83524c6679c",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 6909,
-    "Trip Duration": 1501,
-    "Vendor":"spin",
-    "Start Community Area Number":3,
-    "End Community Area Number":21,
-    "Start Community Area Name":"UPTOWN",
-    "End Community Area Name":"AVONDALE",
-    "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
-    "End Centroid Latitude":41.93928256,
-    "End Centroid Longitude":-87.71075685,
-    "End Centroid Location":"POINT (-87.71075685 41.93928256)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"1685c06a-34ef-4087-b766-3e49be1d8f11",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 6848,
-    "Trip Duration": 1290,
-    "Vendor":"lime",
-    "Start Community Area Number":7,
-    "End Community Area Number":28,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"NEAR WEST SIDE",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.87425419,
-    "End Centroid Longitude":-87.66461906,
-    "End Centroid Location":"POINT (-87.66461906 41.87425419)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.729443,41.85871388 ]
-    },
-    "properties": {
-    "Trip ID":"3a328cb6-e477-4b2a-a1c5-dd1530dd4f1c",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":33,
-    "Trip Duration":139,
-    "Vendor":"spin",
-    "Start Community Area Number":29,
-    "End Community Area Number":29,
-    "Start Community Area Name":"NORTH LAWNDALE",
-    "End Community Area Name":"NORTH LAWNDALE",
-    "Start Centroid Location":"POINT (-87.729443 41.85871388)",
-    "End Centroid Latitude":41.85871388,
-    "End Centroid Longitude":-87.729443,
-    "End Centroid Location":"POINT (-87.729443 41.85871388)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"3336fa8a-2a4c-4ed9-bb27-29f2fba339b7",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1251,
-    "Trip Duration": 2491,
-    "Vendor":"lime",
-    "Start Community Area Number":7,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.67556756,41.90145875 ]
-    },
-    "properties": {
-    "Trip ID":"89be7ea4-a3c6-45ee-b2ad-447e151936b8",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":115,
-    "Trip Duration":276,
-    "Vendor":"lime",
-    "Start Community Area Number":24,
-    "End Community Area Number":24,
-    "Start Community Area Name":"WEST TOWN",
-    "End Community Area Name":"WEST TOWN",
-    "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
-    "End Centroid Latitude":41.90145875,
-    "End Centroid Longitude":-87.67556756,
-    "End Centroid Location":"POINT (-87.67556756 41.90145875)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.729443,41.85871388 ]
-    },
-    "properties": {
-    "Trip ID":"fc9f8da5-b914-4f29-809a-aa105a810704",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":18,
-    "Trip Duration":67,
-    "Vendor":"spin",
-    "Start Community Area Number":29,
-    "End Community Area Number":29,
-    "Start Community Area Name":"NORTH LAWNDALE",
-    "End Community Area Name":"NORTH LAWNDALE",
-    "Start Centroid Location":"POINT (-87.729443 41.85871388)",
-    "End Centroid Latitude":41.85871388,
-    "End Centroid Longitude":-87.729443,
-    "End Centroid Location":"POINT (-87.729443 41.85871388)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.729443,41.85871388 ]
-    },
-    "properties": {
-    "Trip ID":"ac9e2f12-e592-4faa-91cd-398f3b10dd8d",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":8,
-    "Trip Duration":63,
-    "Vendor":"spin",
-    "Start Community Area Number":29,
-    "End Community Area Number":29,
-    "Start Community Area Name":"NORTH LAWNDALE",
-    "End Community Area Name":"NORTH LAWNDALE",
-    "Start Centroid Location":"POINT (-87.729443 41.85871388)",
-    "End Centroid Latitude":41.85871388,
-    "End Centroid Longitude":-87.729443,
-    "End Centroid Location":"POINT (-87.729443 41.85871388)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"e7f8df32-908a-4cfc-9f3f-bc562945cbc7",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 2401,
-    "Trip Duration":726,
-    "Vendor":"bird",
-    "Start Community Area Number":6,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.67556756,41.90145875 ]
-    },
-    "properties": {
-    "Trip ID":"8a1a185b-f6b1-42bf-b9a8-8f1ece3b615f",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":313,
-    "Trip Duration":333,
-    "Vendor":"lime",
-    "Start Community Area Number":24,
-    "End Community Area Number":24,
-    "Start Community Area Name":"WEST TOWN",
-    "End Community Area Name":"WEST TOWN",
-    "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
-    "End Centroid Latitude":41.90145875,
-    "End Centroid Longitude":-87.67556756,
-    "End Centroid Location":"POINT (-87.67556756 41.90145875)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"cb98f9de-7814-4efe-8ef6-bdce8e02d262",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 4020,
-    "Trip Duration": 1154,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"b9ea705b-81e6-417b-bf12-08f790d47e44",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 10881,
-    "Trip Duration": 2996,
-    "Vendor":"spin",
-    "Start Community Area Number":7,
-    "End Community Area Number":3,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"UPTOWN",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.96543532,
-    "End Centroid Longitude":-87.65514456,
-    "End Centroid Location":"POINT (-87.65514456 41.96543532)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.729443,41.85871388 ]
-    },
-    "properties": {
-    "Trip ID":"798d814b-c9d3-4ad6-b6c9-ff8e30dd72de",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 1670,
-    "Trip Duration":506,
-    "Vendor":"spin",
-    "Start Community Area Number":29,
-    "End Community Area Number":27,
-    "Start Community Area Name":"NORTH LAWNDALE",
-    "End Community Area Name":"EAST GARFIELD PARK",
-    "Start Centroid Location":"POINT (-87.729443 41.85871388)",
-    "End Centroid Latitude":41.87868645,
-    "End Centroid Longitude":-87.70125285,
-    "End Centroid Location":"POINT (-87.70125285 41.87868645)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"dd342db0-636b-4e4c-89da-3379916e25e5",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 1911,
-    "Trip Duration":646,
-    "Vendor":"spin",
-    "Start Community Area Number":7,
-    "End Community Area Number":5,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"NORTH CENTER",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.94801074,
-    "End Centroid Longitude":-87.68489298,
-    "End Centroid Location":"POINT (-87.68489298 41.94801074)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.68489298,41.94801074 ]
-    },
-    "properties": {
-    "Trip ID":"491e9aee-d8c6-48c2-9d97-858027b360f5",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 2521,
-    "Trip Duration":722,
-    "Vendor":"spin",
-    "Start Community Area Number":5,
-    "End Community Area Number":6,
-    "Start Community Area Name":"NORTH CENTER",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.68489298 41.94801074)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"d0fc8d02-78ec-4c06-bdec-808afd42e0be",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance": 3575,
-    "Trip Duration":816,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.67556756,41.90145875 ]
-    },
-    "properties": {
-    "Trip ID":"5fb37fc9-2bc4-482b-bb21-e3061b27735d",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 4416,
-    "Trip Duration":958,
-    "Vendor":"lime",
-    "Start Community Area Number":24,
-    "End Community Area Number":7,
-    "Start Community Area Name":"WEST TOWN",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.72395524,41.90081341 ]
-    },
-    "properties": {
-    "Trip ID":"ae8c2609-9c93-4fdb-b809-7c5541e183b9",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 5555,
-    "Trip Duration": 1827,
-    "Vendor":"bird",
-    "Start Community Area Number":23,
-    "End Community Area Number":23,
-    "Start Community Area Name":"HUMBOLDT PARK",
-    "End Community Area Name":"HUMBOLDT PARK",
-    "Start Centroid Location":"POINT (-87.72395524 41.90081341)",
-    "End Centroid Latitude":41.90081341,
-    "End Centroid Longitude":-87.72395524,
-    "End Centroid Location":"POINT (-87.72395524 41.90081341)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"2f511d1b-831e-45d0-b7c8-efec89054374",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1039,
-    "Trip Duration":635,
-    "Vendor":"lime",
-    "Start Community Area Number":7,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.71075685,41.93928256 ]
-    },
-    "properties": {
-    "Trip ID":"c23b3f04-23ef-4fa9-9e12-e6113e75dcc9",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":17,
-    "Trip Duration":66,
-    "Vendor":"spin",
-    "Start Community Area Number":21,
-    "End Community Area Number":22,
-    "Start Community Area Name":"AVONDALE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.71075685 41.93928256)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"427a909a-b3ff-4cbc-b3d0-89ff9cf1f1cd",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1065,
-    "Trip Duration":558,
-    "Vendor":"lime",
-    "Start Community Area Number":7,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.71075685,41.93928256 ]
-    },
-    "properties": {
-    "Trip ID":"11f6d836-af88-4eba-8ddf-d71f6bf9d8e9",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 09:00:00 AM",
-    "Trip Distance":761,
-    "Trip Duration":218,
-    "Vendor":"spin",
-    "Start Community Area Number":21,
-    "End Community Area Number":22,
-    "Start Community Area Name":"AVONDALE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.71075685 41.93928256)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.75400818,41.92707325 ]
-    },
-    "properties": {
-    "Trip ID":"580521a9-b7b6-47ea-b784-ebc9a511188a",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 12:00:00 PM",
-    "Trip Distance": 4413,
-    "Trip Duration": 7402,
-    "Vendor":"lime",
-    "Start Community Area Number":19,
-    "End Community Area Number":19,
-    "Start Community Area Name":"BELMONT CRAGIN",
-    "End Community Area Name":"BELMONT CRAGIN",
-    "Start Centroid Location":"POINT (-87.75400818 41.92707325)",
-    "End Centroid Latitude":41.92707325,
-    "End Centroid Longitude":-87.75400818,
-    "End Centroid Location":"POINT (-87.75400818 41.92707325)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"cd1bd1e1-6dbb-4eab-a106-10b8b9f9e2d8",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 8207,
-    "Trip Duration": 1636,
-    "Vendor":"bird",
-    "Start Community Area Number":6,
-    "End Community Area Number":24,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"WEST TOWN",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.90145875,
-    "End Centroid Longitude":-87.67556756,
-    "End Centroid Location":"POINT (-87.67556756 41.90145875)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.73348152,41.95287655 ]
-    },
-    "properties": {
-    "Trip ID":"68d6fc7a-9fc8-4ab0-b280-1388956550ec",
-    "Start Time":"08/12/2020 09:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 3147,
-    "Trip Duration": 1059,
-    "Vendor":"lime",
-    "Start Community Area Number":16,
-    "End Community Area Number":16,
-    "Start Community Area Name":"IRVING PARK",
-    "End Community Area Name":"IRVING PARK",
-    "Start Centroid Location":"POINT (-87.73348152 41.95287655)",
-    "End Centroid Latitude":41.95287655,
-    "End Centroid Longitude":-87.73348152,
-    "End Centroid Location":"POINT (-87.73348152 41.95287655)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.67556756,41.90145875 ]
-    },
-    "properties": {
-    "Trip ID":"6d1cec70-ba1b-4a42-b4fe-62f40fdcf361",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 5484,
-    "Trip Duration": 2058,
-    "Vendor":"lime",
-    "Start Community Area Number":24,
-    "End Community Area Number":24,
-    "Start Community Area Name":"WEST TOWN",
-    "End Community Area Name":"WEST TOWN",
-    "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
-    "End Centroid Latitude":41.90145875,
-    "End Centroid Longitude":-87.67556756,
-    "End Centroid Location":"POINT (-87.67556756 41.90145875)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.67556756,41.90145875 ]
-    },
-    "properties": {
-    "Trip ID":"1e846851-b2e7-46cb-b5e5-c12385b7ede9",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1307,
-    "Trip Duration": 1998,
-    "Vendor":"lime",
-    "Start Community Area Number":24,
-    "End Community Area Number":24,
-    "Start Community Area Name":"WEST TOWN",
-    "End Community Area Name":"WEST TOWN",
-    "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
-    "End Centroid Latitude":41.90145875,
-    "End Centroid Longitude":-87.67556756,
-    "End Centroid Location":"POINT (-87.67556756 41.90145875)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65514456,41.96543532 ]
-    },
-    "properties": {
-    "Trip ID":"0bb8a154-1553-4596-a928-8329238d500c",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1866,
-    "Trip Duration":866,
-    "Vendor":"spin",
-    "Start Community Area Number":3,
-    "End Community Area Number":6,
-    "Start Community Area Name":"UPTOWN",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70125285,41.87868645 ]
-    },
-    "properties": {
-    "Trip ID":"1b522c9e-a3bc-463f-b270-a1f1680e1c27",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 11:00:00 AM",
-    "Trip Distance": 10514,
-    "Trip Duration": 3438,
-    "Vendor":"lime",
-    "Start Community Area Number":27,
-    "End Community Area Number":26,
-    "Start Community Area Name":"EAST GARFIELD PARK",
-    "End Community Area Name":"WEST GARFIELD PARK",
-    "Start Centroid Location":"POINT (-87.70125285 41.87868645)",
-    "End Centroid Latitude":41.87920096,
-    "End Centroid Longitude":-87.73000536,
-    "End Centroid Location":"POINT (-87.73000536 41.87920096)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65514456,41.96543532 ]
-    },
-    "properties": {
-    "Trip ID":"a7b55ed2-9c8f-4737-9233-b9d6f54154d1",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1888,
-    "Trip Duration":834,
-    "Vendor":"spin",
-    "Start Community Area Number":3,
-    "End Community Area Number":6,
-    "Start Community Area Name":"UPTOWN",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"f646283d-0a47-4c5f-bfe2-389aaabc288e",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1678,
-    "Trip Duration":426,
-    "Vendor":"spin",
-    "Start Community Area Number":22,
-    "End Community Area Number":22,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"bda644f0-368a-4558-ae34-2328139d605f",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 2523,
-    "Trip Duration":495,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.67556756,41.90145875 ]
-    },
-    "properties": {
-    "Trip ID":"5552ccce-abc5-4ac6-bba3-fad0a593d383",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 6311,
-    "Trip Duration": 1206,
-    "Vendor":"bird",
-    "Start Community Area Number":24,
-    "End Community Area Number":22,
-    "Start Community Area Name":"WEST TOWN",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"cf9448f4-be72-4b58-8275-c62a5884374d",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance":804,
-    "Trip Duration":195,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"6a0d0749-a9c8-40ea-84cf-80d67bbb44a3",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1447,
-    "Trip Duration":342,
-    "Vendor":"spin",
-    "Start Community Area Number":7,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"37557b86-6d3b-41a6-a48c-b20c924359c0",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance":934,
-    "Trip Duration":418,
-    "Vendor":"spin",
-    "Start Community Area Number":6,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.7578251,41.89081229 ]
-    },
-    "properties": {
-    "Trip ID":"859b6919-4bc3-4bc5-8f35-42529f65a0d7",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance":8,
-    "Trip Duration":603,
-    "Vendor":"bird",
-    "Start Community Area Number":25,
-    "End Community Area Number":25,
-    "Start Community Area Name":"AUSTIN",
-    "End Community Area Name":"AUSTIN",
-    "Start Centroid Location":"POINT (-87.7578251 41.89081229)",
-    "End Centroid Latitude":41.89081229,
-    "End Centroid Longitude":-87.7578251,
-    "End Centroid Location":"POINT (-87.7578251 41.89081229)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.72395524,41.90081341 ]
-    },
-    "properties": {
-    "Trip ID":"77d41d91-e9a0-491a-be7e-d2c6e4635f93",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 3898,
-    "Trip Duration":880,
-    "Vendor":"lime",
-    "Start Community Area Number":23,
-    "End Community Area Number":24,
-    "Start Community Area Name":"HUMBOLDT PARK",
-    "End Community Area Name":"WEST TOWN",
-    "Start Centroid Location":"POINT (-87.72395524 41.90081341)",
-    "End Centroid Latitude":41.90145875,
-    "End Centroid Longitude":-87.67556756,
-    "End Centroid Location":"POINT (-87.67556756 41.90145875)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"edd24b46-3762-45f4-89d9-4b9af409fe32",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance":20,
-    "Trip Duration":112,
-    "Vendor":"spin",
-    "Start Community Area Number":22,
-    "End Community Area Number":22,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"211e66fd-ca85-4a83-a33f-f740d697ede4",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 4405,
-    "Trip Duration": 1697,
-    "Vendor":"spin",
-    "Start Community Area Number":22,
-    "End Community Area Number":22,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"35ac8fe3-9c6a-40ad-b978-efaaabb7f501",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance":508,
-    "Trip Duration":756,
-    "Vendor":"lime",
-    "Start Community Area Number":7,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"42f05504-5a14-4fb6-9f4f-c9c4ff35a7d1",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance":41,
-    "Trip Duration":49,
-    "Vendor":"spin",
-    "Start Community Area Number":22,
-    "End Community Area Number":22,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.68489298,41.94801074 ]
-    },
-    "properties": {
-    "Trip ID":"ab50c30b-0d06-45a8-b501-59835d460dba",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance":6,
-    "Trip Duration":70,
-    "Vendor":"bird",
-    "Start Community Area Number":5,
-    "End Community Area Number":5,
-    "Start Community Area Name":"NORTH CENTER",
-    "End Community Area Name":"NORTH CENTER",
-    "Start Centroid Location":"POINT (-87.68489298 41.94801074)",
-    "End Centroid Latitude":41.94801074,
-    "End Centroid Longitude":-87.68489298,
-    "End Centroid Location":"POINT (-87.68489298 41.94801074)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.68489298,41.94801074 ]
-    },
-    "properties": {
-    "Trip ID":"2e049765-3c34-4480-badd-5f4e9cdbf6d8",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 11:00:00 AM",
-    "Trip Distance": 5615,
-    "Trip Duration": 2207,
-    "Vendor":"spin",
-    "Start Community Area Number":5,
-    "End Community Area Number":5,
-    "Start Community Area Name":"NORTH CENTER",
-    "End Community Area Name":"NORTH CENTER",
-    "Start Centroid Location":"POINT (-87.68489298 41.94801074)",
-    "End Centroid Latitude":41.94801074,
-    "End Centroid Longitude":-87.68489298,
-    "End Centroid Location":"POINT (-87.68489298 41.94801074)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.68489298,41.94801074 ]
-    },
-    "properties": {
-    "Trip ID":"f0bfb2f2-977f-4cd4-892a-66cf834d9ab7",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 3051,
-    "Trip Duration":462,
-    "Vendor":"bird",
-    "Start Community Area Number":5,
-    "End Community Area Number":5,
-    "Start Community Area Name":"NORTH CENTER",
-    "End Community Area Name":"NORTH CENTER",
-    "Start Centroid Location":"POINT (-87.68489298 41.94801074)",
-    "End Centroid Latitude":41.94801074,
-    "End Centroid Longitude":-87.68489298,
-    "End Centroid Location":"POINT (-87.68489298 41.94801074)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"fdcaec60-6eca-46d4-a517-6169fef92866",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 4249,
-    "Trip Duration": 1353,
-    "Vendor":"spin",
-    "Start Community Area Number":22,
-    "End Community Area Number":22,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"1f8ccc54-0383-41be-b3c7-e9a4e8ed0e4d",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 11:00:00 AM",
-    "Trip Distance":15,
-    "Trip Duration": 2677,
-    "Vendor":"lime",
-    "Start Community Area Number":7,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"9528f5dd-403f-4163-9b9d-35c29324dde1",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1716,
-    "Trip Duration":607,
-    "Vendor":"bird",
-    "Start Community Area Number":22,
-    "End Community Area Number":22,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.65749768,41.9435138 ]
-    },
-    "properties": {
-    "Trip ID":"a70223f5-3b1c-440a-92ae-47114c22a42e",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1682,
-    "Trip Duration":380,
-    "Vendor":"bird",
-    "Start Community Area Number":6,
-    "End Community Area Number":6,
-    "Start Community Area Name":"LAKE VIEW",
-    "End Community Area Name":"LAKE VIEW",
-    "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
-    "End Centroid Latitude":41.9435138,
-    "End Centroid Longitude":-87.65749768,
-    "End Centroid Location":"POINT (-87.65749768 41.9435138)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.68489298,41.94801074 ]
-    },
-    "properties": {
-    "Trip ID":"700040c6-1e52-4c6d-8e26-749d6e9b4785",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 11:00:00 AM",
-    "Trip Distance": 5499,
-    "Trip Duration": 2068,
-    "Vendor":"spin",
-    "Start Community Area Number":5,
-    "End Community Area Number":5,
-    "Start Community Area Name":"NORTH CENTER",
-    "End Community Area Name":"NORTH CENTER",
-    "Start Centroid Location":"POINT (-87.68489298 41.94801074)",
-    "End Centroid Latitude":41.94801074,
-    "End Centroid Longitude":-87.68489298,
-    "End Centroid Location":"POINT (-87.68489298 41.94801074)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.59292547,41.79424302 ]
-    },
-    "properties": {
-    "Trip ID":"4c763a47-e5eb-4bcc-a487-249e392b0969",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance":352,
-    "Trip Duration":152,
-    "Vendor":"bird",
-    "Start Community Area Number":41,
-    "End Community Area Number":41,
-    "Start Community Area Name":"HYDE PARK",
-    "End Community Area Name":"HYDE PARK",
-    "Start Centroid Location":"POINT (-87.59292547 41.79424302)",
-    "End Centroid Latitude":41.79424302,
-    "End Centroid Longitude":-87.59292547,
-    "End Centroid Location":"POINT (-87.59292547 41.79424302)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"493ca046-14a7-4049-b107-941f308dadf9",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance":459,
-    "Trip Duration":258,
-    "Vendor":"spin",
-    "Start Community Area Number":22,
-    "End Community Area Number":22,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.67556756,41.90145875 ]
-    },
-    "properties": {
-    "Trip ID":"46a067de-b165-4486-baa4-f28bcd615e89",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1924,
-    "Trip Duration":637,
-    "Vendor":"lime",
-    "Start Community Area Number":24,
-    "End Community Area Number":8,
-    "Start Community Area Name":"WEST TOWN",
-    "End Community Area Name":"NEAR NORTH SIDE",
-    "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
-    "End Centroid Latitude":41.89952808,
-    "End Centroid Longitude":-87.63357077,
-    "End Centroid Location":"POINT (-87.63357077 41.89952808)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"8ccf4b48-42b6-4503-a241-793fe7c5b977",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1986,
-    "Trip Duration":463,
-    "Vendor":"spin",
-    "Start Community Area Number":22,
-    "End Community Area Number":21,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"AVONDALE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.93928256,
-    "End Centroid Longitude":-87.71075685,
-    "End Centroid Location":"POINT (-87.71075685 41.93928256)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.7578251,41.89081229 ]
-    },
-    "properties": {
-    "Trip ID":"6e4b0dc1-95b9-4fd3-8268-214b7e0d3da5",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance":1,
-    "Trip Duration":167,
-    "Vendor":"bird",
-    "Start Community Area Number":25,
-    "End Community Area Number":25,
-    "Start Community Area Name":"AUSTIN",
-    "End Community Area Name":"AUSTIN",
-    "Start Centroid Location":"POINT (-87.7578251 41.89081229)",
-    "End Centroid Latitude":41.89081229,
-    "End Centroid Longitude":-87.7578251,
-    "End Centroid Location":"POINT (-87.7578251 41.89081229)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.67480357,41.83018593 ]
-    },
-    "properties": {
-    "Trip ID":"449244f7-ec62-4824-b16f-7097b75a2f3b",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance":94,
-    "Trip Duration":880,
-    "Vendor":"lime",
-    "Start Community Area Number":59,
-    "End Community Area Number":59,
-    "Start Community Area Name":"MCKINLEY PARK",
-    "End Community Area Name":"MCKINLEY PARK",
-    "Start Centroid Location":"POINT (-87.67480357 41.83018593)",
-    "End Centroid Latitude":41.83018593,
-    "End Centroid Longitude":-87.67480357,
-    "End Centroid Location":"POINT (-87.67480357 41.83018593)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.7578251,41.89081229 ]
-    },
-    "properties": {
-    "Trip ID":"c3e3872b-9315-4220-9c32-c64776b75480",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 2233,
-    "Trip Duration":643,
-    "Vendor":"bird",
-    "Start Community Area Number":25,
-    "End Community Area Number":25,
-    "Start Community Area Name":"AUSTIN",
-    "End Community Area Name":"AUSTIN",
-    "Start Centroid Location":"POINT (-87.7578251 41.89081229)",
-    "End Centroid Latitude":41.89081229,
-    "End Centroid Longitude":-87.7578251,
-    "End Centroid Location":"POINT (-87.7578251 41.89081229)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"4390b0be-ea56-4208-bb7f-94f45e1378bd",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1883,
-    "Trip Duration": 1405,
-    "Vendor":"lime",
-    "Start Community Area Number":7,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.64564651,41.92188043 ]
-    },
-    "properties": {
-    "Trip ID":"0ed9ddf3-037c-4d4f-b443-db2a3845016d",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 1912,
-    "Trip Duration": 1401,
-    "Vendor":"lime",
-    "Start Community Area Number":7,
-    "End Community Area Number":7,
-    "Start Community Area Name":"LINCOLN PARK",
-    "End Community Area Name":"LINCOLN PARK",
-    "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
-    "End Centroid Latitude":41.92188043,
-    "End Centroid Longitude":-87.64564651,
-    "End Centroid Location":"POINT (-87.64564651 41.92188043)"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -87.70430082,41.92290349 ]
-    },
-    "properties": {
-    "Trip ID":"8d32a143-0029-48c5-9c1e-c697dc109acc",
-    "Start Time":"08/12/2020 10:00:00 AM",
-    "End Time":"08/12/2020 10:00:00 AM",
-    "Trip Distance": 2996,
-    "Trip Duration":723,
-    "Vendor":"spin",
-    "Start Community Area Number":22,
-    "End Community Area Number":22,
-    "Start Community Area Name":"LOGAN SQUARE",
-    "End Community Area Name":"LOGAN SQUARE",
-    "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
-    "End Centroid Latitude":41.92290349,
-    "End Centroid Longitude":-87.70430082,
-    "End Centroid Location":"POINT (-87.70430082 41.92290349)"
-    }
-  }
-]
-}
+    "type": "FeatureCollection",
+    "features": [
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64226608,41.78006847 ]
+     },
+     "properties": {
+     "Trip ID":"3eb9a2a3-3266-4559-b1ec-e83a6f7972ab",
+     "Start Time":"08/12/2020 05:00:00 AM",
+     "End Time":"08/12/2020 05:00:00 AM",
+     "Trip Distance": 1153,
+     "Trip Duration": 1027,
+     "Vendor":"spin",
+     "Start Community Area Number":68,
+     "End Community Area Number":68,
+     "Start Community Area Name":"ENGLEWOOD",
+     "End Community Area Name":"ENGLEWOOD",
+     "Start Centroid Location":"POINT (-87.64226608 41.78006847)",
+     "End Centroid Latitude":41.78006847,
+     "End Centroid Longitude":-87.64226608,
+     "End Centroid Location":"POINT (-87.64226608 41.78006847)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"82dd7b8f-8de0-4f25-829b-b32bf47e8419",
+     "Start Time":"08/12/2020 05:00:00 AM",
+     "End Time":"08/12/2020 05:00:00 AM",
+     "Trip Distance":17,
+     "Trip Duration":91,
+     "Vendor":"spin",
+     "Start Community Area Number":22,
+     "End Community Area Number":21,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"AVONDALE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.93928256,
+     "End Centroid Longitude":-87.71075685,
+     "End Centroid Location":"POINT (-87.71075685 41.93928256)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65514456,41.96543532 ]
+     },
+     "properties": {
+     "Trip ID":"9120cbf3-f749-49b6-b894-0e6e065cd731",
+     "Start Time":"08/12/2020 05:00:00 AM",
+     "End Time":"08/12/2020 05:00:00 AM",
+     "Trip Distance": 2883,
+     "Trip Duration":724,
+     "Vendor":"spin",
+     "Start Community Area Number":3,
+     "End Community Area Number":6,
+     "Start Community Area Name":"UPTOWN",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.67517932,41.84833501 ]
+     },
+     "properties": {
+     "Trip ID":"cf2e4abc-2649-49be-924b-468a1aefc4c8",
+     "Start Time":"08/12/2020 05:00:00 AM",
+     "End Time":"08/12/2020 05:00:00 AM",
+     "Trip Distance":5,
+     "Trip Duration":21,
+     "Vendor":"spin",
+     "Start Community Area Number":31,
+     "End Community Area Number":31,
+     "Start Community Area Name":"LOWER WEST SIDE",
+     "End Community Area Name":"LOWER WEST SIDE",
+     "Start Centroid Location":"POINT (-87.67517932 41.84833501)",
+     "End Centroid Latitude":41.84833501,
+     "End Centroid Longitude":-87.67517932,
+     "End Centroid Location":"POINT (-87.67517932 41.84833501)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"0448afb5-ab64-4090-b528-e3050e7eb0f2",
+     "Start Time":"08/12/2020 07:00:00 AM",
+     "End Time":"08/12/2020 07:00:00 AM",
+     "Trip Distance": 1179,
+     "Trip Duration":245,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"5b7425e1-0b21-46d5-9ac1-55f2f1777738",
+     "Start Time":"08/12/2020 07:00:00 AM",
+     "End Time":"08/12/2020 07:00:00 AM",
+     "Trip Distance": 3815,
+     "Trip Duration":840,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":3,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"UPTOWN",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.96543532,
+     "End Centroid Longitude":-87.65514456,
+     "End Centroid Location":"POINT (-87.65514456 41.96543532)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"18433ae5-4c8b-4c86-89cd-4e649507bcfe",
+     "Start Time":"08/12/2020 07:00:00 AM",
+     "End Time":"08/12/2020 07:00:00 AM",
+     "Trip Distance":13,
+     "Trip Duration":101,
+     "Vendor":"spin",
+     "Start Community Area Number":7,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"2486c853-5196-4e59-b633-a63e8cc375ab",
+     "Start Time":"08/12/2020 07:00:00 AM",
+     "End Time":"08/12/2020 07:00:00 AM",
+     "Trip Distance":24,
+     "Trip Duration":105,
+     "Vendor":"spin",
+     "Start Community Area Number":7,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"a5b7250d-51b9-4504-b849-bb7b04bd81d3",
+     "Start Time":"08/12/2020 07:00:00 AM",
+     "End Time":"08/12/2020 07:00:00 AM",
+     "Trip Distance": 4709,
+     "Trip Duration": 1421,
+     "Vendor":"spin",
+     "Start Community Area Number":7,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"3a60d75f-86a2-449c-958d-e89e484dbf2a",
+     "Start Time":"08/12/2020 07:00:00 AM",
+     "End Time":"08/12/2020 07:00:00 AM",
+     "Trip Distance": 4642,
+     "Trip Duration": 1285,
+     "Vendor":"spin",
+     "Start Community Area Number":7,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"87efd199-16da-41b0-ab20-b3177c1d8e9e",
+     "Start Time":"08/12/2020 07:00:00 AM",
+     "End Time":"08/12/2020 07:00:00 AM",
+     "Trip Distance":365,
+     "Trip Duration":110,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.73348152,41.95287655 ]
+     },
+     "properties": {
+     "Trip ID":"5a7f8b18-ff8b-4c8b-8e45-4f0ebe952bd2",
+     "Start Time":"08/12/2020 07:00:00 AM",
+     "End Time":"08/12/2020 07:00:00 AM",
+     "Trip Distance":8,
+     "Trip Duration":152,
+     "Vendor":"spin",
+     "Start Community Area Number":16,
+     "End Community Area Number":16,
+     "Start Community Area Name":"IRVING PARK",
+     "End Community Area Name":"IRVING PARK",
+     "Start Centroid Location":"POINT (-87.73348152 41.95287655)",
+     "End Centroid Latitude":41.95287655,
+     "End Centroid Longitude":-87.73348152,
+     "End Centroid Location":"POINT (-87.73348152 41.95287655)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.66434312,41.98711448 ]
+     },
+     "properties": {
+     "Trip ID":"28b787ff-de26-48ce-9840-5803129b6962",
+     "Start Time":"08/12/2020 07:00:00 AM",
+     "End Time":"08/12/2020 07:00:00 AM",
+     "Trip Distance":7,
+     "Trip Duration":50,
+     "Vendor":"bird",
+     "Start Community Area Number":77,
+     "End Community Area Number":77,
+     "Start Community Area Name":"EDGEWATER",
+     "End Community Area Name":"EDGEWATER",
+     "Start Centroid Location":"POINT (-87.66434312 41.98711448)",
+     "End Centroid Latitude":41.98711448,
+     "End Centroid Longitude":-87.66434312,
+     "End Centroid Location":"POINT (-87.66434312 41.98711448)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"063f3b4d-ec43-47b2-8ad6-760fdf46f779",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 22692,
+     "Trip Duration": 8141,
+     "Vendor":"bird",
+     "Start Community Area Number":22,
+     "End Community Area Number":22,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.61937863,41.7137828 ]
+     },
+     "properties": {
+     "Trip ID":"d65f0cf6-30ce-45fe-ab2d-7d8d11d73062",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 08:00:00 AM",
+     "Trip Distance":543,
+     "Trip Duration":942,
+     "Vendor":"spin",
+     "Start Community Area Number":49,
+     "End Community Area Number":49,
+     "Start Community Area Name":"ROSELAND",
+     "End Community Area Name":"ROSELAND",
+     "Start Centroid Location":"POINT (-87.61937863 41.7137828)",
+     "End Centroid Latitude":41.7137828,
+     "End Centroid Longitude":-87.61937863,
+     "End Centroid Location":"POINT (-87.61937863 41.7137828)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"995aca16-e33e-4f62-98f1-be4f473ae645",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 08:00:00 AM",
+     "Trip Distance":15,
+     "Trip Duration":110,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"8c4df140-8dec-4773-9d9c-bf7463a28042",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 08:00:00 AM",
+     "Trip Distance": 4931,
+     "Trip Duration": 1142,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":3,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"UPTOWN",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.96543532,
+     "End Centroid Longitude":-87.65514456,
+     "End Centroid Location":"POINT (-87.65514456 41.96543532)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65514456,41.96543532 ]
+     },
+     "properties": {
+     "Trip ID":"8e4f04ef-94f6-4f61-b31f-a7033ea6f9cc",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 08:00:00 AM",
+     "Trip Distance":24,
+     "Trip Duration":71,
+     "Vendor":"spin",
+     "Start Community Area Number":3,
+     "End Community Area Number":3,
+     "Start Community Area Name":"UPTOWN",
+     "End Community Area Name":"UPTOWN",
+     "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
+     "End Centroid Latitude":41.96543532,
+     "End Centroid Longitude":-87.65514456,
+     "End Centroid Location":"POINT (-87.65514456 41.96543532)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65514456,41.96543532 ]
+     },
+     "properties": {
+     "Trip ID":"091ff507-b351-40d0-b4b8-2f0d0c60dcab",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 08:00:00 AM",
+     "Trip Distance":604,
+     "Trip Duration":174,
+     "Vendor":"spin",
+     "Start Community Area Number":3,
+     "End Community Area Number":3,
+     "Start Community Area Name":"UPTOWN",
+     "End Community Area Name":"UPTOWN",
+     "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
+     "End Centroid Latitude":41.96543532,
+     "End Centroid Longitude":-87.65514456,
+     "End Centroid Location":"POINT (-87.65514456 41.96543532)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.75400818,41.92707325 ]
+     },
+     "properties": {
+     "Trip ID":"88d26323-f194-4fdc-bf1d-276fc0b984a0",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 08:00:00 AM",
+     "Trip Distance":16,
+     "Trip Duration": 1245,
+     "Vendor":"lime",
+     "Start Community Area Number":19,
+     "End Community Area Number":19,
+     "Start Community Area Name":"BELMONT CRAGIN",
+     "End Community Area Name":"BELMONT CRAGIN",
+     "Start Centroid Location":"POINT (-87.75400818 41.92707325)",
+     "End Centroid Latitude":41.92707325,
+     "End Centroid Longitude":-87.75400818,
+     "End Centroid Location":"POINT (-87.75400818 41.92707325)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65514456,41.96543532 ]
+     },
+     "properties": {
+     "Trip ID":"dbfeb629-2f20-44a3-82a2-7e7cb0328430",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 4714,
+     "Trip Duration": 2548,
+     "Vendor":"spin",
+     "Start Community Area Number":3,
+     "End Community Area Number":3,
+     "Start Community Area Name":"UPTOWN",
+     "End Community Area Name":"UPTOWN",
+     "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
+     "End Centroid Latitude":41.96543532,
+     "End Centroid Longitude":-87.65514456,
+     "End Centroid Location":"POINT (-87.65514456 41.96543532)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"0e0d68ac-5047-4a12-ae3c-16b514f83d1d",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 08:00:00 AM",
+     "Trip Distance": 1222,
+     "Trip Duration":390,
+     "Vendor":"spin",
+     "Start Community Area Number":7,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65514456,41.96543532 ]
+     },
+     "properties": {
+     "Trip ID":"d877b26d-71b1-4c05-b8f4-5f1f04f2f9b8",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 3782,
+     "Trip Duration":878,
+     "Vendor":"spin",
+     "Start Community Area Number":3,
+     "End Community Area Number":6,
+     "Start Community Area Name":"UPTOWN",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65514456,41.96543532 ]
+     },
+     "properties": {
+     "Trip ID":"a4811e0b-0e0f-4acb-89d6-966f8daf3e26",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 08:00:00 AM",
+     "Trip Distance": 1444,
+     "Trip Duration":445,
+     "Vendor":"spin",
+     "Start Community Area Number":3,
+     "End Community Area Number":6,
+     "Start Community Area Name":"UPTOWN",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.75400818,41.92707325 ]
+     },
+     "properties": {
+     "Trip ID":"86ec3942-63b9-4b0e-b20d-34747645a0ac",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":59,
+     "Trip Duration": 1086,
+     "Vendor":"lime",
+     "Start Community Area Number":19,
+     "End Community Area Number":19,
+     "Start Community Area Name":"BELMONT CRAGIN",
+     "End Community Area Name":"BELMONT CRAGIN",
+     "Start Centroid Location":"POINT (-87.75400818 41.92707325)",
+     "End Centroid Latitude":41.92707325,
+     "End Centroid Longitude":-87.75400818,
+     "End Centroid Location":"POINT (-87.75400818 41.92707325)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"04de73ea-65b8-4ceb-ab6e-bdbc86b0ca2f",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 2871,
+     "Trip Duration": 1097,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"92988bb2-6748-4e7f-89c1-406c66a433db",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 1795,
+     "Trip Duration":835,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"2f55894a-985a-41ed-8da2-934321b256b9",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 3142,
+     "Trip Duration":594,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.75400818,41.92707325 ]
+     },
+     "properties": {
+     "Trip ID":"4d4957c5-e94e-4897-b25b-2588729daba2",
+     "Start Time":"08/12/2020 08:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":28,
+     "Trip Duration":856,
+     "Vendor":"lime",
+     "Start Community Area Number":19,
+     "End Community Area Number":19,
+     "Start Community Area Name":"BELMONT CRAGIN",
+     "End Community Area Name":"BELMONT CRAGIN",
+     "Start Centroid Location":"POINT (-87.75400818 41.92707325)",
+     "End Centroid Latitude":41.92707325,
+     "End Centroid Longitude":-87.75400818,
+     "End Centroid Location":"POINT (-87.75400818 41.92707325)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"2195caad-fe52-4843-84db-43946e32565b",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":13,
+     "Trip Duration":66,
+     "Vendor":"spin",
+     "Start Community Area Number":22,
+     "End Community Area Number":22,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.67556756,41.90145875 ]
+     },
+     "properties": {
+     "Trip ID":"f8164268-3784-4b04-a1b6-3ead670bbf9a",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":32,
+     "Trip Duration":233,
+     "Vendor":"spin",
+     "Start Community Area Number":24,
+     "End Community Area Number":24,
+     "Start Community Area Name":"WEST TOWN",
+     "End Community Area Name":"WEST TOWN",
+     "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
+     "End Centroid Latitude":41.90145875,
+     "End Centroid Longitude":-87.67556756,
+     "End Centroid Location":"POINT (-87.67556756 41.90145875)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.71075685,41.93928256 ]
+     },
+     "properties": {
+     "Trip ID":"441ddd3d-d504-49bc-92b7-72b86da128dd",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 2446,
+     "Trip Duration":505,
+     "Vendor":"spin",
+     "Start Community Area Number":21,
+     "End Community Area Number":22,
+     "Start Community Area Name":"AVONDALE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.71075685 41.93928256)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.79851442,41.92967976 ]
+     },
+     "properties": {
+     "Trip ID":"1952dbb3-4609-4f05-8d84-43ae0a835c6f",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 2781,
+     "Trip Duration":810,
+     "Vendor":"spin",
+     "Start Community Area Number":18,
+     "End Community Area Number":19,
+     "Start Community Area Name":"MONTCLARE",
+     "End Community Area Name":"BELMONT CRAGIN",
+     "Start Centroid Location":"POINT (-87.79851442 41.92967976)",
+     "End Centroid Latitude":41.92707325,
+     "End Centroid Longitude":-87.75400818,
+     "End Centroid Location":"POINT (-87.75400818 41.92707325)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.79851442,41.92967976 ]
+     },
+     "properties": {
+     "Trip ID":"310d68be-8fc4-4355-99eb-e6f08ee44273",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 2771,
+     "Trip Duration":874,
+     "Vendor":"spin",
+     "Start Community Area Number":18,
+     "End Community Area Number":19,
+     "Start Community Area Name":"MONTCLARE",
+     "End Community Area Name":"BELMONT CRAGIN",
+     "Start Centroid Location":"POINT (-87.79851442 41.92967976)",
+     "End Centroid Latitude":41.92707325,
+     "End Centroid Longitude":-87.75400818,
+     "End Centroid Location":"POINT (-87.75400818 41.92707325)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70125285,41.87868645 ]
+     },
+     "properties": {
+     "Trip ID":"0a49cc5a-5e75-47da-bad7-b0987da5378b",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 2017,
+     "Trip Duration":534,
+     "Vendor":"bird",
+     "Start Community Area Number":27,
+     "End Community Area Number":27,
+     "Start Community Area Name":"EAST GARFIELD PARK",
+     "End Community Area Name":"EAST GARFIELD PARK",
+     "Start Centroid Location":"POINT (-87.70125285 41.87868645)",
+     "End Centroid Latitude":41.87868645,
+     "End Centroid Longitude":-87.70125285,
+     "End Centroid Location":"POINT (-87.70125285 41.87868645)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70125285,41.87868645 ]
+     },
+     "properties": {
+     "Trip ID":"6507b161-9af6-4954-ad48-c51a6377c547",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 5339,
+     "Trip Duration": 2910,
+     "Vendor":"spin",
+     "Start Community Area Number":27,
+     "End Community Area Number":27,
+     "Start Community Area Name":"EAST GARFIELD PARK",
+     "End Community Area Name":"EAST GARFIELD PARK",
+     "Start Centroid Location":"POINT (-87.70125285 41.87868645)",
+     "End Centroid Latitude":41.87868645,
+     "End Centroid Longitude":-87.70125285,
+     "End Centroid Location":"POINT (-87.70125285 41.87868645)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"3045e393-9f81-4364-87ba-ca7b419b0024",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 7299,
+     "Trip Duration": 3455,
+     "Vendor":"bird",
+     "Start Community Area Number":22,
+     "End Community Area Number":22,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.72395524,41.90081341 ]
+     },
+     "properties": {
+     "Trip ID":"8ac8becc-062a-4f1b-83ae-42d2abc7b4a9",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":22,
+     "Trip Duration":395,
+     "Vendor":"bird",
+     "Start Community Area Number":23,
+     "End Community Area Number":23,
+     "Start Community Area Name":"HUMBOLDT PARK",
+     "End Community Area Name":"HUMBOLDT PARK",
+     "Start Centroid Location":"POINT (-87.72395524 41.90081341)",
+     "End Centroid Latitude":41.90081341,
+     "End Centroid Longitude":-87.72395524,
+     "End Centroid Location":"POINT (-87.72395524 41.90081341)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"ed3f2bf6-6f10-4878-8dba-e791796455b6",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 5097,
+     "Trip Duration": 1076,
+     "Vendor":"spin",
+     "Start Community Area Number":22,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.66461906,41.87425419 ]
+     },
+     "properties": {
+     "Trip ID":"8aea0a98-077f-4653-b2bb-9657fd39a175",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":740,
+     "Trip Duration": 2334,
+     "Vendor":"lime",
+     "Start Community Area Number":28,
+     "End Community Area Number":28,
+     "Start Community Area Name":"NEAR WEST SIDE",
+     "End Community Area Name":"NEAR WEST SIDE",
+     "Start Centroid Location":"POINT (-87.66461906 41.87425419)",
+     "End Centroid Latitude":41.87425419,
+     "End Centroid Longitude":-87.66461906,
+     "End Centroid Location":"POINT (-87.66461906 41.87425419)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65514456,41.96543532 ]
+     },
+     "properties": {
+     "Trip ID":"35ba842b-2f2e-4919-b4db-e83524c6679c",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 6909,
+     "Trip Duration": 1501,
+     "Vendor":"spin",
+     "Start Community Area Number":3,
+     "End Community Area Number":21,
+     "Start Community Area Name":"UPTOWN",
+     "End Community Area Name":"AVONDALE",
+     "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
+     "End Centroid Latitude":41.93928256,
+     "End Centroid Longitude":-87.71075685,
+     "End Centroid Location":"POINT (-87.71075685 41.93928256)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"1685c06a-34ef-4087-b766-3e49be1d8f11",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 6848,
+     "Trip Duration": 1290,
+     "Vendor":"lime",
+     "Start Community Area Number":7,
+     "End Community Area Number":28,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"NEAR WEST SIDE",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.87425419,
+     "End Centroid Longitude":-87.66461906,
+     "End Centroid Location":"POINT (-87.66461906 41.87425419)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.729443,41.85871388 ]
+     },
+     "properties": {
+     "Trip ID":"3a328cb6-e477-4b2a-a1c5-dd1530dd4f1c",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":33,
+     "Trip Duration":139,
+     "Vendor":"spin",
+     "Start Community Area Number":29,
+     "End Community Area Number":29,
+     "Start Community Area Name":"NORTH LAWNDALE",
+     "End Community Area Name":"NORTH LAWNDALE",
+     "Start Centroid Location":"POINT (-87.729443 41.85871388)",
+     "End Centroid Latitude":41.85871388,
+     "End Centroid Longitude":-87.729443,
+     "End Centroid Location":"POINT (-87.729443 41.85871388)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"3336fa8a-2a4c-4ed9-bb27-29f2fba339b7",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1251,
+     "Trip Duration": 2491,
+     "Vendor":"lime",
+     "Start Community Area Number":7,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.67556756,41.90145875 ]
+     },
+     "properties": {
+     "Trip ID":"89be7ea4-a3c6-45ee-b2ad-447e151936b8",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":115,
+     "Trip Duration":276,
+     "Vendor":"lime",
+     "Start Community Area Number":24,
+     "End Community Area Number":24,
+     "Start Community Area Name":"WEST TOWN",
+     "End Community Area Name":"WEST TOWN",
+     "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
+     "End Centroid Latitude":41.90145875,
+     "End Centroid Longitude":-87.67556756,
+     "End Centroid Location":"POINT (-87.67556756 41.90145875)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.729443,41.85871388 ]
+     },
+     "properties": {
+     "Trip ID":"fc9f8da5-b914-4f29-809a-aa105a810704",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":18,
+     "Trip Duration":67,
+     "Vendor":"spin",
+     "Start Community Area Number":29,
+     "End Community Area Number":29,
+     "Start Community Area Name":"NORTH LAWNDALE",
+     "End Community Area Name":"NORTH LAWNDALE",
+     "Start Centroid Location":"POINT (-87.729443 41.85871388)",
+     "End Centroid Latitude":41.85871388,
+     "End Centroid Longitude":-87.729443,
+     "End Centroid Location":"POINT (-87.729443 41.85871388)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.729443,41.85871388 ]
+     },
+     "properties": {
+     "Trip ID":"ac9e2f12-e592-4faa-91cd-398f3b10dd8d",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":8,
+     "Trip Duration":63,
+     "Vendor":"spin",
+     "Start Community Area Number":29,
+     "End Community Area Number":29,
+     "Start Community Area Name":"NORTH LAWNDALE",
+     "End Community Area Name":"NORTH LAWNDALE",
+     "Start Centroid Location":"POINT (-87.729443 41.85871388)",
+     "End Centroid Latitude":41.85871388,
+     "End Centroid Longitude":-87.729443,
+     "End Centroid Location":"POINT (-87.729443 41.85871388)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"e7f8df32-908a-4cfc-9f3f-bc562945cbc7",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 2401,
+     "Trip Duration":726,
+     "Vendor":"bird",
+     "Start Community Area Number":6,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.67556756,41.90145875 ]
+     },
+     "properties": {
+     "Trip ID":"8a1a185b-f6b1-42bf-b9a8-8f1ece3b615f",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":313,
+     "Trip Duration":333,
+     "Vendor":"lime",
+     "Start Community Area Number":24,
+     "End Community Area Number":24,
+     "Start Community Area Name":"WEST TOWN",
+     "End Community Area Name":"WEST TOWN",
+     "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
+     "End Centroid Latitude":41.90145875,
+     "End Centroid Longitude":-87.67556756,
+     "End Centroid Location":"POINT (-87.67556756 41.90145875)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"cb98f9de-7814-4efe-8ef6-bdce8e02d262",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 4020,
+     "Trip Duration": 1154,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"b9ea705b-81e6-417b-bf12-08f790d47e44",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 10881,
+     "Trip Duration": 2996,
+     "Vendor":"spin",
+     "Start Community Area Number":7,
+     "End Community Area Number":3,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"UPTOWN",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.96543532,
+     "End Centroid Longitude":-87.65514456,
+     "End Centroid Location":"POINT (-87.65514456 41.96543532)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.729443,41.85871388 ]
+     },
+     "properties": {
+     "Trip ID":"798d814b-c9d3-4ad6-b6c9-ff8e30dd72de",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 1670,
+     "Trip Duration":506,
+     "Vendor":"spin",
+     "Start Community Area Number":29,
+     "End Community Area Number":27,
+     "Start Community Area Name":"NORTH LAWNDALE",
+     "End Community Area Name":"EAST GARFIELD PARK",
+     "Start Centroid Location":"POINT (-87.729443 41.85871388)",
+     "End Centroid Latitude":41.87868645,
+     "End Centroid Longitude":-87.70125285,
+     "End Centroid Location":"POINT (-87.70125285 41.87868645)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"dd342db0-636b-4e4c-89da-3379916e25e5",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 1911,
+     "Trip Duration":646,
+     "Vendor":"spin",
+     "Start Community Area Number":7,
+     "End Community Area Number":5,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"NORTH CENTER",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.94801074,
+     "End Centroid Longitude":-87.68489298,
+     "End Centroid Location":"POINT (-87.68489298 41.94801074)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.68489298,41.94801074 ]
+     },
+     "properties": {
+     "Trip ID":"491e9aee-d8c6-48c2-9d97-858027b360f5",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 2521,
+     "Trip Duration":722,
+     "Vendor":"spin",
+     "Start Community Area Number":5,
+     "End Community Area Number":6,
+     "Start Community Area Name":"NORTH CENTER",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.68489298 41.94801074)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"d0fc8d02-78ec-4c06-bdec-808afd42e0be",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance": 3575,
+     "Trip Duration":816,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.67556756,41.90145875 ]
+     },
+     "properties": {
+     "Trip ID":"5fb37fc9-2bc4-482b-bb21-e3061b27735d",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 4416,
+     "Trip Duration":958,
+     "Vendor":"lime",
+     "Start Community Area Number":24,
+     "End Community Area Number":7,
+     "Start Community Area Name":"WEST TOWN",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.72395524,41.90081341 ]
+     },
+     "properties": {
+     "Trip ID":"ae8c2609-9c93-4fdb-b809-7c5541e183b9",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 5555,
+     "Trip Duration": 1827,
+     "Vendor":"bird",
+     "Start Community Area Number":23,
+     "End Community Area Number":23,
+     "Start Community Area Name":"HUMBOLDT PARK",
+     "End Community Area Name":"HUMBOLDT PARK",
+     "Start Centroid Location":"POINT (-87.72395524 41.90081341)",
+     "End Centroid Latitude":41.90081341,
+     "End Centroid Longitude":-87.72395524,
+     "End Centroid Location":"POINT (-87.72395524 41.90081341)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"2f511d1b-831e-45d0-b7c8-efec89054374",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1039,
+     "Trip Duration":635,
+     "Vendor":"lime",
+     "Start Community Area Number":7,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.71075685,41.93928256 ]
+     },
+     "properties": {
+     "Trip ID":"c23b3f04-23ef-4fa9-9e12-e6113e75dcc9",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":17,
+     "Trip Duration":66,
+     "Vendor":"spin",
+     "Start Community Area Number":21,
+     "End Community Area Number":22,
+     "Start Community Area Name":"AVONDALE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.71075685 41.93928256)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"427a909a-b3ff-4cbc-b3d0-89ff9cf1f1cd",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1065,
+     "Trip Duration":558,
+     "Vendor":"lime",
+     "Start Community Area Number":7,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.71075685,41.93928256 ]
+     },
+     "properties": {
+     "Trip ID":"11f6d836-af88-4eba-8ddf-d71f6bf9d8e9",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 09:00:00 AM",
+     "Trip Distance":761,
+     "Trip Duration":218,
+     "Vendor":"spin",
+     "Start Community Area Number":21,
+     "End Community Area Number":22,
+     "Start Community Area Name":"AVONDALE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.71075685 41.93928256)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.75400818,41.92707325 ]
+     },
+     "properties": {
+     "Trip ID":"580521a9-b7b6-47ea-b784-ebc9a511188a",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 12:00:00 PM",
+     "Trip Distance": 4413,
+     "Trip Duration": 7402,
+     "Vendor":"lime",
+     "Start Community Area Number":19,
+     "End Community Area Number":19,
+     "Start Community Area Name":"BELMONT CRAGIN",
+     "End Community Area Name":"BELMONT CRAGIN",
+     "Start Centroid Location":"POINT (-87.75400818 41.92707325)",
+     "End Centroid Latitude":41.92707325,
+     "End Centroid Longitude":-87.75400818,
+     "End Centroid Location":"POINT (-87.75400818 41.92707325)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"cd1bd1e1-6dbb-4eab-a106-10b8b9f9e2d8",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 8207,
+     "Trip Duration": 1636,
+     "Vendor":"bird",
+     "Start Community Area Number":6,
+     "End Community Area Number":24,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"WEST TOWN",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.90145875,
+     "End Centroid Longitude":-87.67556756,
+     "End Centroid Location":"POINT (-87.67556756 41.90145875)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.73348152,41.95287655 ]
+     },
+     "properties": {
+     "Trip ID":"68d6fc7a-9fc8-4ab0-b280-1388956550ec",
+     "Start Time":"08/12/2020 09:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 3147,
+     "Trip Duration": 1059,
+     "Vendor":"lime",
+     "Start Community Area Number":16,
+     "End Community Area Number":16,
+     "Start Community Area Name":"IRVING PARK",
+     "End Community Area Name":"IRVING PARK",
+     "Start Centroid Location":"POINT (-87.73348152 41.95287655)",
+     "End Centroid Latitude":41.95287655,
+     "End Centroid Longitude":-87.73348152,
+     "End Centroid Location":"POINT (-87.73348152 41.95287655)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.67556756,41.90145875 ]
+     },
+     "properties": {
+     "Trip ID":"6d1cec70-ba1b-4a42-b4fe-62f40fdcf361",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 5484,
+     "Trip Duration": 2058,
+     "Vendor":"lime",
+     "Start Community Area Number":24,
+     "End Community Area Number":24,
+     "Start Community Area Name":"WEST TOWN",
+     "End Community Area Name":"WEST TOWN",
+     "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
+     "End Centroid Latitude":41.90145875,
+     "End Centroid Longitude":-87.67556756,
+     "End Centroid Location":"POINT (-87.67556756 41.90145875)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.67556756,41.90145875 ]
+     },
+     "properties": {
+     "Trip ID":"1e846851-b2e7-46cb-b5e5-c12385b7ede9",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1307,
+     "Trip Duration": 1998,
+     "Vendor":"lime",
+     "Start Community Area Number":24,
+     "End Community Area Number":24,
+     "Start Community Area Name":"WEST TOWN",
+     "End Community Area Name":"WEST TOWN",
+     "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
+     "End Centroid Latitude":41.90145875,
+     "End Centroid Longitude":-87.67556756,
+     "End Centroid Location":"POINT (-87.67556756 41.90145875)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65514456,41.96543532 ]
+     },
+     "properties": {
+     "Trip ID":"0bb8a154-1553-4596-a928-8329238d500c",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1866,
+     "Trip Duration":866,
+     "Vendor":"spin",
+     "Start Community Area Number":3,
+     "End Community Area Number":6,
+     "Start Community Area Name":"UPTOWN",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70125285,41.87868645 ]
+     },
+     "properties": {
+     "Trip ID":"1b522c9e-a3bc-463f-b270-a1f1680e1c27",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 11:00:00 AM",
+     "Trip Distance": 10514,
+     "Trip Duration": 3438,
+     "Vendor":"lime",
+     "Start Community Area Number":27,
+     "End Community Area Number":26,
+     "Start Community Area Name":"EAST GARFIELD PARK",
+     "End Community Area Name":"WEST GARFIELD PARK",
+     "Start Centroid Location":"POINT (-87.70125285 41.87868645)",
+     "End Centroid Latitude":41.87920096,
+     "End Centroid Longitude":-87.73000536,
+     "End Centroid Location":"POINT (-87.73000536 41.87920096)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65514456,41.96543532 ]
+     },
+     "properties": {
+     "Trip ID":"a7b55ed2-9c8f-4737-9233-b9d6f54154d1",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1888,
+     "Trip Duration":834,
+     "Vendor":"spin",
+     "Start Community Area Number":3,
+     "End Community Area Number":6,
+     "Start Community Area Name":"UPTOWN",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65514456 41.96543532)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"f646283d-0a47-4c5f-bfe2-389aaabc288e",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1678,
+     "Trip Duration":426,
+     "Vendor":"spin",
+     "Start Community Area Number":22,
+     "End Community Area Number":22,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"bda644f0-368a-4558-ae34-2328139d605f",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 2523,
+     "Trip Duration":495,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.67556756,41.90145875 ]
+     },
+     "properties": {
+     "Trip ID":"5552ccce-abc5-4ac6-bba3-fad0a593d383",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 6311,
+     "Trip Duration": 1206,
+     "Vendor":"bird",
+     "Start Community Area Number":24,
+     "End Community Area Number":22,
+     "Start Community Area Name":"WEST TOWN",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"cf9448f4-be72-4b58-8275-c62a5884374d",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance":804,
+     "Trip Duration":195,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"6a0d0749-a9c8-40ea-84cf-80d67bbb44a3",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1447,
+     "Trip Duration":342,
+     "Vendor":"spin",
+     "Start Community Area Number":7,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"37557b86-6d3b-41a6-a48c-b20c924359c0",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance":934,
+     "Trip Duration":418,
+     "Vendor":"spin",
+     "Start Community Area Number":6,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.7578251,41.89081229 ]
+     },
+     "properties": {
+     "Trip ID":"859b6919-4bc3-4bc5-8f35-42529f65a0d7",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance":8,
+     "Trip Duration":603,
+     "Vendor":"bird",
+     "Start Community Area Number":25,
+     "End Community Area Number":25,
+     "Start Community Area Name":"AUSTIN",
+     "End Community Area Name":"AUSTIN",
+     "Start Centroid Location":"POINT (-87.7578251 41.89081229)",
+     "End Centroid Latitude":41.89081229,
+     "End Centroid Longitude":-87.7578251,
+     "End Centroid Location":"POINT (-87.7578251 41.89081229)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.72395524,41.90081341 ]
+     },
+     "properties": {
+     "Trip ID":"77d41d91-e9a0-491a-be7e-d2c6e4635f93",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 3898,
+     "Trip Duration":880,
+     "Vendor":"lime",
+     "Start Community Area Number":23,
+     "End Community Area Number":24,
+     "Start Community Area Name":"HUMBOLDT PARK",
+     "End Community Area Name":"WEST TOWN",
+     "Start Centroid Location":"POINT (-87.72395524 41.90081341)",
+     "End Centroid Latitude":41.90145875,
+     "End Centroid Longitude":-87.67556756,
+     "End Centroid Location":"POINT (-87.67556756 41.90145875)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"edd24b46-3762-45f4-89d9-4b9af409fe32",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance":20,
+     "Trip Duration":112,
+     "Vendor":"spin",
+     "Start Community Area Number":22,
+     "End Community Area Number":22,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"211e66fd-ca85-4a83-a33f-f740d697ede4",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 4405,
+     "Trip Duration": 1697,
+     "Vendor":"spin",
+     "Start Community Area Number":22,
+     "End Community Area Number":22,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"35ac8fe3-9c6a-40ad-b978-efaaabb7f501",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance":508,
+     "Trip Duration":756,
+     "Vendor":"lime",
+     "Start Community Area Number":7,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"42f05504-5a14-4fb6-9f4f-c9c4ff35a7d1",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance":41,
+     "Trip Duration":49,
+     "Vendor":"spin",
+     "Start Community Area Number":22,
+     "End Community Area Number":22,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.68489298,41.94801074 ]
+     },
+     "properties": {
+     "Trip ID":"ab50c30b-0d06-45a8-b501-59835d460dba",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance":6,
+     "Trip Duration":70,
+     "Vendor":"bird",
+     "Start Community Area Number":5,
+     "End Community Area Number":5,
+     "Start Community Area Name":"NORTH CENTER",
+     "End Community Area Name":"NORTH CENTER",
+     "Start Centroid Location":"POINT (-87.68489298 41.94801074)",
+     "End Centroid Latitude":41.94801074,
+     "End Centroid Longitude":-87.68489298,
+     "End Centroid Location":"POINT (-87.68489298 41.94801074)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.68489298,41.94801074 ]
+     },
+     "properties": {
+     "Trip ID":"2e049765-3c34-4480-badd-5f4e9cdbf6d8",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 11:00:00 AM",
+     "Trip Distance": 5615,
+     "Trip Duration": 2207,
+     "Vendor":"spin",
+     "Start Community Area Number":5,
+     "End Community Area Number":5,
+     "Start Community Area Name":"NORTH CENTER",
+     "End Community Area Name":"NORTH CENTER",
+     "Start Centroid Location":"POINT (-87.68489298 41.94801074)",
+     "End Centroid Latitude":41.94801074,
+     "End Centroid Longitude":-87.68489298,
+     "End Centroid Location":"POINT (-87.68489298 41.94801074)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.68489298,41.94801074 ]
+     },
+     "properties": {
+     "Trip ID":"f0bfb2f2-977f-4cd4-892a-66cf834d9ab7",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 3051,
+     "Trip Duration":462,
+     "Vendor":"bird",
+     "Start Community Area Number":5,
+     "End Community Area Number":5,
+     "Start Community Area Name":"NORTH CENTER",
+     "End Community Area Name":"NORTH CENTER",
+     "Start Centroid Location":"POINT (-87.68489298 41.94801074)",
+     "End Centroid Latitude":41.94801074,
+     "End Centroid Longitude":-87.68489298,
+     "End Centroid Location":"POINT (-87.68489298 41.94801074)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"fdcaec60-6eca-46d4-a517-6169fef92866",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 4249,
+     "Trip Duration": 1353,
+     "Vendor":"spin",
+     "Start Community Area Number":22,
+     "End Community Area Number":22,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"1f8ccc54-0383-41be-b3c7-e9a4e8ed0e4d",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 11:00:00 AM",
+     "Trip Distance":15,
+     "Trip Duration": 2677,
+     "Vendor":"lime",
+     "Start Community Area Number":7,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"9528f5dd-403f-4163-9b9d-35c29324dde1",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1716,
+     "Trip Duration":607,
+     "Vendor":"bird",
+     "Start Community Area Number":22,
+     "End Community Area Number":22,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.65749768,41.9435138 ]
+     },
+     "properties": {
+     "Trip ID":"a70223f5-3b1c-440a-92ae-47114c22a42e",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1682,
+     "Trip Duration":380,
+     "Vendor":"bird",
+     "Start Community Area Number":6,
+     "End Community Area Number":6,
+     "Start Community Area Name":"LAKE VIEW",
+     "End Community Area Name":"LAKE VIEW",
+     "Start Centroid Location":"POINT (-87.65749768 41.9435138)",
+     "End Centroid Latitude":41.9435138,
+     "End Centroid Longitude":-87.65749768,
+     "End Centroid Location":"POINT (-87.65749768 41.9435138)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.68489298,41.94801074 ]
+     },
+     "properties": {
+     "Trip ID":"700040c6-1e52-4c6d-8e26-749d6e9b4785",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 11:00:00 AM",
+     "Trip Distance": 5499,
+     "Trip Duration": 2068,
+     "Vendor":"spin",
+     "Start Community Area Number":5,
+     "End Community Area Number":5,
+     "Start Community Area Name":"NORTH CENTER",
+     "End Community Area Name":"NORTH CENTER",
+     "Start Centroid Location":"POINT (-87.68489298 41.94801074)",
+     "End Centroid Latitude":41.94801074,
+     "End Centroid Longitude":-87.68489298,
+     "End Centroid Location":"POINT (-87.68489298 41.94801074)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.59292547,41.79424302 ]
+     },
+     "properties": {
+     "Trip ID":"4c763a47-e5eb-4bcc-a487-249e392b0969",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance":352,
+     "Trip Duration":152,
+     "Vendor":"bird",
+     "Start Community Area Number":41,
+     "End Community Area Number":41,
+     "Start Community Area Name":"HYDE PARK",
+     "End Community Area Name":"HYDE PARK",
+     "Start Centroid Location":"POINT (-87.59292547 41.79424302)",
+     "End Centroid Latitude":41.79424302,
+     "End Centroid Longitude":-87.59292547,
+     "End Centroid Location":"POINT (-87.59292547 41.79424302)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"493ca046-14a7-4049-b107-941f308dadf9",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance":459,
+     "Trip Duration":258,
+     "Vendor":"spin",
+     "Start Community Area Number":22,
+     "End Community Area Number":22,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.67556756,41.90145875 ]
+     },
+     "properties": {
+     "Trip ID":"46a067de-b165-4486-baa4-f28bcd615e89",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1924,
+     "Trip Duration":637,
+     "Vendor":"lime",
+     "Start Community Area Number":24,
+     "End Community Area Number":8,
+     "Start Community Area Name":"WEST TOWN",
+     "End Community Area Name":"NEAR NORTH SIDE",
+     "Start Centroid Location":"POINT (-87.67556756 41.90145875)",
+     "End Centroid Latitude":41.89952808,
+     "End Centroid Longitude":-87.63357077,
+     "End Centroid Location":"POINT (-87.63357077 41.89952808)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"8ccf4b48-42b6-4503-a241-793fe7c5b977",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1986,
+     "Trip Duration":463,
+     "Vendor":"spin",
+     "Start Community Area Number":22,
+     "End Community Area Number":21,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"AVONDALE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.93928256,
+     "End Centroid Longitude":-87.71075685,
+     "End Centroid Location":"POINT (-87.71075685 41.93928256)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.7578251,41.89081229 ]
+     },
+     "properties": {
+     "Trip ID":"6e4b0dc1-95b9-4fd3-8268-214b7e0d3da5",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance":1,
+     "Trip Duration":167,
+     "Vendor":"bird",
+     "Start Community Area Number":25,
+     "End Community Area Number":25,
+     "Start Community Area Name":"AUSTIN",
+     "End Community Area Name":"AUSTIN",
+     "Start Centroid Location":"POINT (-87.7578251 41.89081229)",
+     "End Centroid Latitude":41.89081229,
+     "End Centroid Longitude":-87.7578251,
+     "End Centroid Location":"POINT (-87.7578251 41.89081229)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.67480357,41.83018593 ]
+     },
+     "properties": {
+     "Trip ID":"449244f7-ec62-4824-b16f-7097b75a2f3b",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance":94,
+     "Trip Duration":880,
+     "Vendor":"lime",
+     "Start Community Area Number":59,
+     "End Community Area Number":59,
+     "Start Community Area Name":"MCKINLEY PARK",
+     "End Community Area Name":"MCKINLEY PARK",
+     "Start Centroid Location":"POINT (-87.67480357 41.83018593)",
+     "End Centroid Latitude":41.83018593,
+     "End Centroid Longitude":-87.67480357,
+     "End Centroid Location":"POINT (-87.67480357 41.83018593)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.7578251,41.89081229 ]
+     },
+     "properties": {
+     "Trip ID":"c3e3872b-9315-4220-9c32-c64776b75480",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 2233,
+     "Trip Duration":643,
+     "Vendor":"bird",
+     "Start Community Area Number":25,
+     "End Community Area Number":25,
+     "Start Community Area Name":"AUSTIN",
+     "End Community Area Name":"AUSTIN",
+     "Start Centroid Location":"POINT (-87.7578251 41.89081229)",
+     "End Centroid Latitude":41.89081229,
+     "End Centroid Longitude":-87.7578251,
+     "End Centroid Location":"POINT (-87.7578251 41.89081229)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"4390b0be-ea56-4208-bb7f-94f45e1378bd",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1883,
+     "Trip Duration": 1405,
+     "Vendor":"lime",
+     "Start Community Area Number":7,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.64564651,41.92188043 ]
+     },
+     "properties": {
+     "Trip ID":"0ed9ddf3-037c-4d4f-b443-db2a3845016d",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 1912,
+     "Trip Duration": 1401,
+     "Vendor":"lime",
+     "Start Community Area Number":7,
+     "End Community Area Number":7,
+     "Start Community Area Name":"LINCOLN PARK",
+     "End Community Area Name":"LINCOLN PARK",
+     "Start Centroid Location":"POINT (-87.64564651 41.92188043)",
+     "End Centroid Latitude":41.92188043,
+     "End Centroid Longitude":-87.64564651,
+     "End Centroid Location":"POINT (-87.64564651 41.92188043)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ -87.70430082,41.92290349 ]
+     },
+     "properties": {
+     "Trip ID":"8d32a143-0029-48c5-9c1e-c697dc109acc",
+     "Start Time":"08/12/2020 10:00:00 AM",
+     "End Time":"08/12/2020 10:00:00 AM",
+     "Trip Distance": 2996,
+     "Trip Duration":723,
+     "Vendor":"spin",
+     "Start Community Area Number":22,
+     "End Community Area Number":22,
+     "Start Community Area Name":"LOGAN SQUARE",
+     "End Community Area Name":"LOGAN SQUARE",
+     "Start Centroid Location":"POINT (-87.70430082 41.92290349)",
+     "End Centroid Latitude":41.92290349,
+     "End Centroid Longitude":-87.70430082,
+     "End Centroid Location":"POINT (-87.70430082 41.92290349)"
+     }
+   }
+ ]
+ }
+ 

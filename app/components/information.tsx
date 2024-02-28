@@ -40,17 +40,21 @@ const information = (): JSX.Element => {
             </div>
             <Parallax className='kid-on-scooter' strength={400}>
                 <div className=' grid grid-cols-2 h-screen '>
-                    <div className=' m-auto w-96 h-96 bg-white z-20 rounded-lg'>
+
+                    <div className=' m-auto w-3/4 h-96 bg-white z-20 rounded-lg'>
                         <label className=' flex justify-center uppercase tracking-widest font-bold '>Prediction</label>
-                        <Map name='pred'></Map>
+                        <Map name='pred' sample='./PredictionData.geojson'></Map>
                     </div>
-                    <div className=' m-auto w-96 h-96 bg-white z-20 rounded-lg'>
+                    <div className=' m-auto w-3/4 h-96 bg-white z-20 rounded-lg'>
                         <label className=' flex justify-center uppercase tracking-widest font-bold'>Real</label>
-                        <Map name='real'></Map>
+                        <Map name='real' sample='./RealData.geojson'></Map>
                     </div>
-                    <div className=' relative col-span-2'>
-                        <div className=' flex justify-center mx-auto w-11/12 rounded-full shadow-inner z-40'>
-                        <Slider></Slider>
+                    <div className='relative col-span-2'>
+                        <div className='flex justify-center mx-auto w-11/12 rounded-full shadow-inner z-40'>
+                            <div className="flex items-center w-1/2 h-8 mt-24 bg-gradient-to-r from-white via-yellow-300 to-red-500 rounded-md relative">
+                                <span className='absolute left-0 ml-3 font-semibold'>Least Rides</span>
+                                <span className='absolute right-0 mr-3 font-semibold'>Most Rides</span>
+                            </div>
                         </div>
                     </div>
                 </div>
