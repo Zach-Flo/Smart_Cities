@@ -41,11 +41,11 @@ const information = (): JSX.Element => {
             <Parallax className='kid-on-scooter' strength={400}>
                 <div className=' grid grid-cols-2 h-screen '>
 
-                    <div className=' m-auto w-96 h-96 bg-white z-20 rounded-lg'>
+                    <div className=' m-auto w-3/4 h-96 bg-white z-20 rounded-lg'>
                         <label className=' flex justify-center uppercase tracking-widest font-bold '>Prediction</label>
                         <Map name='pred' sample='./PredictionData.geojson'></Map>
                     </div>
-                    <div className=' m-auto w-96 h-96 bg-white z-20 rounded-lg'>
+                    <div className=' m-auto w-3/4 h-96 bg-white z-20 rounded-lg'>
                         <label className=' flex justify-center uppercase tracking-widest font-bold'>Real</label>
                         <Map name='real' sample='./RealData.geojson'></Map>
                     </div>
