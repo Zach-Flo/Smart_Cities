@@ -32,11 +32,12 @@ const information = (): JSX.Element => {
                 </Background>
 
             </Parallax>
-            <div className=' max-h-fit min-h-fit p-2 text-left text-[color:var(--blackv)] shadow-xl opacity-70 font-mono flex bg-[color:var(--whitev)] font-sans'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quis accusantium exercitationem deleniti eaque totam, mollitia blanditiis quisquam maiores
-            quas culpa rerum vero corporis fugit magni voluptate repellat distinctio expedita tenetur. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Cum in natus iste dicta quo, voluptatem quibusdam
-            vitae aut deleniti provident culpa nobis ullam eos enim assumenda aliquam itaque veritatis. Facere.
+            <div className=' max-h-fit min-h-fit p-2 font-semibold text-[color:var(--blackv)] shadow-xl opacity-70 text-center flex bg-[color:var(--whitev)] font-sans'>
+            Our project delves into E-Scooter usage rates across various Chicago regions, 
+            employing machine learning techniques for analysis. Through data-driven insights, 
+            we aim to understand patterns and trends in E-Scooter utilization, considering factors 
+            like time, weather, and geography. Our findings intend to inform city planners and transportation 
+            authorities, aiding in the enhancement of urban mobility and sustainability strategies in Chicago.
             </div>
             <Parallax className='kid-on-scooter' strength={400}>
                 <div className=' grid grid-cols-2 h-screen '>
@@ -69,11 +70,11 @@ const information = (): JSX.Element => {
                     </div>
                 </Background>
             </Parallax>
-            <div className=' max-h-fit min-h-fit p-2 text-left text-[color:var(--blackv)] shadow-xl opacity-70 font-mono flex bg-[color:var(--whitev)] font-sans'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quis accusantium exercitationem deleniti eaque totam, mollitia blanditiis quisquam maiores
-            quas culpa rerum vero corporis fugit magni voluptate repellat distinctio expedita tenetur. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Cum in natus iste dicta quo, voluptatem quibusdam
-            vitae aut deleniti provident culpa nobis ullam eos enim assumenda aliquam itaque veritatis. Facere.
+            <div className=' max-h-fit min-h-fit p-2 text-center text-[color:var(--blackv)] shadow-xl opacity-70  flex bg-[color:var(--whitev)] font-semibold font-sans'>
+            Our project concludes with valuable insights into E-Scooter usage across Chicago's diverse regions. 
+            By harnessing machine learning, we've identified key patterns that inform urban mobility strategies. 
+            Our findings serve as a foundation for future initiatives aimed at optimizing transportation systems
+             and fostering sustainable urban development in the city.
             </div>
 
             <Parallax className='scooter-hub' strength={400}>

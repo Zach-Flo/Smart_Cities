@@ -2,11 +2,12 @@
 import '../globals.css'
 import React, { useRef, useEffect, useState } from 'react'
 import mapboxgl from 'mapbox-gl'
+import { loadDataSource, setChoroplethView } from "./map_functions"
 // Import Mapbox CSS
 import 'mapbox-gl/dist/mapbox-gl.css';
 
-mapboxgl.accessToken = "pk.eyJ1IjoiemFjaGZsbyIsImEiOiJjbHNxbWRzeWExMXpmMmxvd3NmNmNuYzF0In0.95X4ks8jqLaf-pacJX_y4A"
-
+const apiKey = process.env.NEXT_PUBLIC_MAPBOX_API_KEY || "pk.eyJ1IjoiemFjaGZsbyIsImEiOiJjbHQ3cWYyN2MwYnZ3MnFvZGtxMnl0ZmVnIn0.I6mUKSYjwbuH_XX_UAEcTg";
+mapboxgl.accessToken = apiKey;
 
 
 const map = ({ name, sample }): JSX.Element => {
@@ -19,7 +20,7 @@ const map = ({ name, sample }): JSX.Element => {
   
   useEffect(() => {
     if (map.current) return // initialize map only once
-    map.current = new mapboxgl.Map({
+      map.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: 'mapbox://styles/zachflo/clt4vuay502ia01p6hb6sf7w3',
       center: [lng, lat],
@@ -27,42 +28,12 @@ const map = ({ name, sample }): JSX.Element => {
       minZoom
     })
 
-    let rides3DLayerAdded = false; // Track whether the layer is added or not
-
     // Centers the camera and sets choropleth view
-    const choroplethView = document.getElementById('choroplethView' + name);
-    if(choroplethView){
-      choroplethView.addEventListener('click', () => {
-        map.current!.flyTo({
-          center: [-87.6298, 41.8781], // Replace with the coordinates you want to center the map to
-          zoom: 8.5,
-          pitch: 0,
-          bearing: 0,
-          duration: 3000,
-          essential: true // This animation is considered essential with respect to prefers-reduced-motion
-        });
-        let opacity = 0.7;
-        const interval = 100; // Interval for opacity update in milliseconds
-        const opacityDecrement = 0.05; // Opacity decrement for each interval
-
-        const opacityInterval = setInterval(() => {
-          opacity -= opacityDecrement;
-          map.current!.setPaintProperty('rides3D', 'fill-extrusion-opacity', opacity);
-          if (opacity <= 0) {
-            clearInterval(opacityInterval); // Stop the interval when opacity reaches 0
-            map.current!.removeLayer('rides3D'); // Remove the layer
-            rides3DLayerAdded = false; // Update the flag
-          }
-        }, interval);
-      });
-    }
+    setChoroplethView(map.current!, name)
 
     // Load the data source
     map.current.on('load', () => {
-      map.current!.addSource('rides', {
-        type: 'geojson',
-        data: sample
-      });
+      loadDataSource(map.current!, sample);
       // Add a choropleth layer
       map.current!.addLayer({
         "id": "ridesChoropleth",
@@ -122,7 +93,6 @@ const map = ({ name, sample }): JSX.Element => {
     const extrusionView = document.getElementById('extrusionView' + name);
     if(extrusionView){
       extrusionView.addEventListener('click', () => {
-        rides3DLayerAdded = true;
         map.current!.flyTo({
           center: [-87.6298, 41.8781], // Replace with the coordinates you want to center the map to
           zoom: 9,
@@ -173,13 +143,46 @@ const map = ({ name, sample }): JSX.Element => {
           }
         }, interval);
       });
-      
 
+        // Add hover interactivity
+        let popup: mapboxgl.Popup | null = null; // Initialize popup reference
+        map.current!.on('mousemove', 'ridesFreq1', function (e) {
+          // Change the cursor style to a pointer
+          map.current!.getCanvas().style.cursor = 'pointer';
+
+          // Get the properties of the hovered feature
+          if (e.features){
+            var hoveredFeature = e.features[0].properties;
+
+            // Display information in a tooltip or popup
+            if (hoveredFeature){
+              var regionName = hoveredFeature.community;
+              var numRides = hoveredFeature.rides;
+            }
+            
+            var tooltipText = regionName + ' - Number of rides: ' + numRides;
+
+            // Create a tooltip and display it at the hovered location
+            if (!popup){
+              popup = new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(tooltipText)
+                .addTo(map.current!);
+            }
+          }
+      });
+
+      // Reset the cursor style and remove the popup when the mouse leaves the region
+      map.current!.on('mouseleave', 'ridesFreq1', function () {
+        map.current!.getCanvas().style.cursor = 'default';
+
+        // Close the popup if it exists
+        if (popup) {
+            popup.remove();
+            popup = null; // Reset popup reference
+        }
+      });
     }
-    
-
-
-
   })
   return (
     <>
