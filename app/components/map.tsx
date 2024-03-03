@@ -6,8 +6,10 @@ import { loadDataSource, setChoroplethView } from "./map_functions"
 // Import Mapbox CSS
 import 'mapbox-gl/dist/mapbox-gl.css';
 
-const apiKey = "pk.eyJ1IjoiemFjaGZsbyIsImEiOiJjbHQ3cWYyN2MwYnZ3MnFvZGtxMnl0ZmVnIn0.I6mUKSYjwbuH_XX_UAEcTg";
-console.log(apiKey);
+let apiKey = "pk.eyJ1IjoiemFjaGZsbyIsImEiOiJjbHQ3cWYyN2MwYnZ3MnFvZGtxMnl0ZmVnIn0.I6mUKSYjwbuH_XX_UAEcTg";
+if(process.env.NEXT_PUBLIC_MAPBOX_API_KEY){
+  apiKey = process.env.NEXT_PUBLIC_MAPBOX_API_KEY
+}
 mapboxgl.accessToken = apiKey;
 
 
