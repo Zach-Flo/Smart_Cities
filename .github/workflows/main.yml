@@ -41,8 +41,8 @@ jobs:
 
       - name: Delete everything in the S3 bucket
         run: |
-          aws s3 rm s3://sdp-smart-cities --recursive --exclude "PredictionData.geojson" --exclude "RealData.geojson"
+          aws s3 rm s3://sdp-smart-cities --recursive --exclude "time.txt" --exclude "PredictionData.geojson" --exclude "RealData.geojson"
 
       - name: Sync 'out' folder with S3 bucket
         run: |
-          aws s3 sync out/ s3://sdp-smart-cities --exclude "*.geojson"
+          aws s3 sync out/ s3://sdp-smart-cities --exclude "*.geojson" --exclude "time.txt"
