@@ -22,7 +22,7 @@ function TimeDisplay() {
     }, []); // Empty dependency array ensures the effect runs only once after the initial render
   
     return (
-        <label className=" ml-28 mt-1.5 absolute uppercase tracking-widest font-bold text-white text-lg">
+        <label className=" mt-1.5  bg-emerald-400 bg-opacity-40 uppercase tracking-widest font-bold text-white text-lg">
           {timeContent}
         </label>
     );
