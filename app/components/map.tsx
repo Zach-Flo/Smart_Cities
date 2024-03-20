@@ -48,13 +48,13 @@ const map = ({ name, sample }): JSX.Element => {
                 ["linear"],
                 ["get", "rides"],
                 0, "#f7f7f7", // Color for lowest frequency
-                20, "#ffffb2", // Color for low frequency
-                30, "#fed976", // Color for moderate frequency
-                40, "#feb24c", // Color for higher frequency
-                50, "#fd8d3c", // Color for high frequency
-                60, "#fc4e2a", // Color for very high frequency
-                70, "#e31a1c", // Color for extremely high frequency
-                80, "#bd0026", // Color for maximum frequency
+                2, "#ffffb2", // Color for low frequency
+                5, "#fed976", // Color for moderate frequency
+                10, "#feb24c", // Color for higher frequency
+                15, "#fd8d3c", // Color for high frequency
+                20, "#fc4e2a", // Color for very high frequency
+                25, "#e31a1c", // Color for extremely high frequency
+                30, "#bd0026", // Color for maximum frequency
             ],
             "fill-opacity": 0.7 // Adjust the opacity of the fill color
         }
