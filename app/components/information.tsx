@@ -7,7 +7,7 @@ import React from 'react'
 import Slider from './Slider'
 import TimeLabel from './TimeLabel'
 import CountdownToNextHour from './CountdownToNextHour'
-// import { url } from 'inspector';
+
 
 const information = (): JSX.Element => {
   return (
