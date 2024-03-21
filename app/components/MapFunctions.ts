@@ -3,14 +3,20 @@ import { MutableRefObject } from "react";
 
 
 const InitilizeMap = (map : MutableRefObject<mapboxgl.Map | null>, mapContainer : MutableRefObject<any>, lng : number, lat: number, zoom: number, minZoom: number) => {
-  if (map.current) return
-      map.current = new mapboxgl.Map({
-      container: mapContainer.current,
-      style: 'mapbox://styles/zachflo/clt4vuay502ia01p6hb6sf7w3',
-      center: [lng, lat],
-      zoom,
-      minZoom
-    })
+  if (map.current) return;
+
+  if (!mapContainer.current) {
+    console.error("Map container is not initialized");
+    return;
+  }
+
+  map.current = new mapboxgl.Map({
+    container: mapContainer.current,
+    style: 'mapbox://styles/zachflo/clt4vuay502ia01p6hb6sf7w3',
+    center: [lng, lat],
+    zoom,
+    minZoom
+  })
 }
 
 const LoadDataSource = (map: mapboxgl.Map, sample: string) => {
