@@ -2,10 +2,10 @@
 import './components/Lenis'
 import './globals.css'
 import React from 'react'
-import StartSection from './components/StartSection'
-import { Divider1, Divider2 } from './components/Dividers'
-import MapComparison from './components/MapComparison'
-import EndSection from './components/EndSection'
+import StartSection from './components/structures/StartSection'
+import { Divider1, Divider2 } from './components/structures/Dividers'
+import MapComparison from './components/map/MapComparison'
+import EndSection from './components/structures/EndSection'
 
 
 function App (): JSX.Element {

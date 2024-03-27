@@ -1,10 +1,8 @@
 'use client'
-import '../globals.css'
 import React, { useRef, useEffect, useState } from 'react'
 import mapboxgl from 'mapbox-gl'
 import MapWrapper from './MapWrapper'
 import { MutableRefObject } from 'react'
-import { AddChoroplethLayer, AddRegionsLayer, LoadDataSource, SetChoroplethView } from "./MapFunctions"
 // Import Mapbox CSS
 import 'mapbox-gl/dist/mapbox-gl.css';
 
@@ -72,8 +70,10 @@ export default function Map ({ name, sample }): JSX.Element {
     }
     
     let popup : mapboxgl.Popup | null;
-      mapObject.map.on('mousemove', 'ridesChoropleth', function (e) {
-      mapContainer.current!.style.cursor = "pointer"
+    mapObject.map.on('mousemove', 'ridesChoropleth', function (e) {
+      let container = document.getElementById(`container${name}`)
+      container!.style.cursor = "pointer"
+      
       if(popup && e.features){
         popup.setLngLat(e.lngLat);
         var hoveredFeature = e.features[0].properties;
