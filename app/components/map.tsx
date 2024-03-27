@@ -41,10 +41,6 @@ export default function Map ({ name, sample }): JSX.Element {
   const [minZoom] = useState(8.6)
   let mapError = false;
 
-
- 
-  
-
   useEffect(() => {
     mapContainer.current = document.getElementById(`container${name}`);
     InitilizeMap(map, mapContainer, lng, lat, zoom, minZoom)
@@ -61,7 +57,7 @@ export default function Map ({ name, sample }): JSX.Element {
   
       mapObject.AddChoroplethLayer();
   
-      mapObject.AddRegionsLayer();
+      //mapObject.AddRegionsLayer();
   
       mapObject.AddBordersLayer();
     });
@@ -75,12 +71,29 @@ export default function Map ({ name, sample }): JSX.Element {
       });
     }
     
-    let popup : mapboxgl.Popup | null = null;
-    mapObject.map.on('mouseenter', 'ridesFreq1', function (e) {
-      mapObject.AddHoverInteractivity(e, popup);
+    let popup : mapboxgl.Popup | null;
+      mapObject.map.on('mousemove', 'ridesChoropleth', function (e) {
+      mapContainer.current!.style.cursor = "pointer"
+      if(popup && e.features){
+        popup.setLngLat(e.lngLat);
+        var hoveredFeature = e.features[0].properties;
+        
+        // Display information in a tooltip or popup
+        if (hoveredFeature){
+          var regionName = hoveredFeature.community;
+          var numRides = hoveredFeature.rides;
+        }
+        
+        var tooltipText = regionName + ' - Number of rides: ' + numRides;
+        popup.setHTML(tooltipText);
+      }else{
+        popup = mapObject.CreatePopup(e)!;
+      }
+      
     });
-    mapObject.map.on("mouseleave", 'ridesFreq1', function (){
-      mapObject.AddUnHoverInteractivity(popup);
+    mapObject.map.on("mouseleave", 'ridesChoropleth', function (){
+      popup!.remove();
+      popup = null;
     });
     
   });

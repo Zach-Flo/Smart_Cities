@@ -1,5 +1,5 @@
 import mapboxgl from "mapbox-gl";
-
+import {Position} from "geojson"
 import {RefObject, MutableRefObject, createElement } from "react";
 import {useRef} from 'react'
 
@@ -127,12 +127,12 @@ export default class MapWrapper {
           });
     }
 
-    AddHoverInteractivity(e: mapboxgl.MapMouseEvent & { features?: mapboxgl.MapboxGeoJSONFeature[] | undefined;} & mapboxgl.EventData, popup: mapboxgl.Popup | null){
-        if(this.map == null){return;}
+    CreatePopup(e: mapboxgl.MapMouseEvent & { features?: mapboxgl.MapboxGeoJSONFeature[] | undefined;} & mapboxgl.EventData){
+        if(this.map == null){return null;}
         // Get the properties of the hovered feature
         if (e.features){
           var hoveredFeature = e.features[0].properties;
-
+        
           // Display information in a tooltip or popup
           if (hoveredFeature){
             var regionName = hoveredFeature.community;
@@ -142,14 +142,13 @@ export default class MapWrapper {
           var tooltipText = regionName + ' - Number of rides: ' + numRides;
 
           // Create a tooltip and display it at the hovered location
-          if (!popup){
-            popup = new mapboxgl.Popup()
-              .setLngLat(e.lngLat)
-              .setHTML(tooltipText)
-              .addTo(this.map);
-          }
+          return new mapboxgl.Popup()
+          .setLngLat(e.lngLat)
+          .setHTML(tooltipText)
+          .addTo(this.map);;
         }
     }
+
 
     AddUnHoverInteractivity(popup : mapboxgl.Popup | null){
       // Close the popup if it exists
