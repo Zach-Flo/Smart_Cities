@@ -2,6 +2,11 @@ import mapboxgl from "mapbox-gl";
 import { MutableRefObject } from "react";
 
 
+
+
+
+
+
 const InitilizeMap = (map : MutableRefObject<mapboxgl.Map | null>, mapContainer : MutableRefObject<any>, lng : number, lat: number, zoom: number, minZoom: number) => {
   if (map.current) return;
 
@@ -53,9 +58,9 @@ const SetChoroplethView = (map: mapboxgl.Map, name: string) => {
         }, interval);
       });
     }
-  };
+};
 
-  const AddChoroplethLayer = (map : mapboxgl.Map) => {
+const AddChoroplethLayer = (map : mapboxgl.Map) => {
     map.addLayer({
       "id": "ridesChoropleth",
       "type": "fill",
@@ -77,8 +82,32 @@ const SetChoroplethView = (map: mapboxgl.Map, name: string) => {
           "fill-opacity": 0.7 // Adjust the opacity of the fill color
       }
     });
-  }
+}
+
+const AddRegionsLayer = (map : mapboxgl.Map) => {
+    map.addLayer(
+      {
+        "id": "ridesFreq1",
+        "type": "symbol",
+        "paint": {
+            "text-halo-color": "hsla(0, 0%, 0%, 0.04)"
+        },
+        "layout": {
+            "text-field": ["to-string", ["get", "community"]],
+            "text-font": ["Poppins Regular", "Arial Unicode MS Regular"],
+            "text-letter-spacing": 0.3,
+            "text-size": 7,
+            "text-padding": 1,
+            "text-transform": "uppercase",
+            "text-justify": ["step", ["zoom"], "center", 22, "center"]
+        },
+        "source": "rides"
+      }
+    )
+}
+
+
 
   
 
-export { LoadDataSource, SetChoroplethView, InitilizeMap, AddChoroplethLayer };
+export { LoadDataSource, SetChoroplethView, InitilizeMap, AddChoroplethLayer, AddRegionsLayer };

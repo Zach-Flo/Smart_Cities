@@ -24,8 +24,7 @@ export default function MapComparison(){
                     </div>
                     <MapKey></MapKey>
                 </div>
-                <Background className=''>
-                                        
+                <Background className=''>                     
                     <div className='content'>
                         <img
                         src="https://ichef.bbci.co.uk/news/2048/cpsprodpb/ef94/live/a932c9a0-0047-11ee-beec-89f19e9787d8.jpg"
