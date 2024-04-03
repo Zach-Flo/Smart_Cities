@@ -21,21 +21,25 @@
   }
 }
 
-
+.slider {
+  color: lightblue;
+  width: 500;
+}
+.slider .MuiSlider-track {
+  height: 12px;
+}
+.slider .MuiSlider-rail {
+  height: 12px;
+}
+.slider .MuiSlider-markLabel {
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 4px;
+  border-radius: 99px;
+}
 html, body {
   overflow:hidden;
-}
-
-.slider-track{
-  @apply h-3 top-0 bg-[color:var(--grayv)] rounded-xl;
-}
-
-.slider-track.slider-track-0 {
-  @apply bg-[color:var(--greenv)];
-}
-
-.slider-thumb:hover{
-  @apply shadow-[0_0_0_8px_rgba(149_174_175_/_0.3)];
 }
 
 .fallen-scooter{

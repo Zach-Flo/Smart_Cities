@@ -100,8 +100,10 @@ export default function Map ({ name, sample }): JSX.Element {
 
   return (
     <>
-      <button id={`choroplethView${name}`} className='button-6 '>Choropleth (Default)</button>
-      <button id={`extrusionView${name}`} className='button-6' >Extrusion</button>
+      <div className=' flex justify-center'>
+        <button id={`choroplethView${name}`} className='button-6'>Choropleth (Default)</button>
+        <button id={`extrusionView${name}`} className='button-6'>Extrusion</button>
+      </div>
       <div id={`container${name}`} ref={ mapContainer } className="w-full h-full rounded-lg"></div>
     </>
 

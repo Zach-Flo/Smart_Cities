@@ -27,7 +27,7 @@ export default function MapComparison(){
                 <Background className=''>                     
                     <div className='content'>
                         <img
-                        src="https://ichef.bbci.co.uk/news/2048/cpsprodpb/ef94/live/a932c9a0-0047-11ee-beec-89f19e9787d8.jpg"
+                        src="https://www.travelandleisure.com/thmb/wwUPgdpCUuD5sAPFLQf4YasjH0M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicago-illinois-CHITG0221-e448062fc5164da0bba639f9857987f6.jpg"
                         className='  min-w-min '
                         alt='scooter'>
                         </img>
