@@ -7,7 +7,6 @@ import DiscreteSlider from './DiscreteSlider'
 import { formatDateAndHour } from './Query'
 import { useEffect, useState } from 'react'
 
-
 export default function QueryPreprocessed(){
     const[selectedDate, setSelectedDate] = useState(new Date('2020-11-19'));
     const[selectedTime, setSelectedTime] = useState(0);
