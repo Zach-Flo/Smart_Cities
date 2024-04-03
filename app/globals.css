@@ -26,10 +26,10 @@
   width: 500;
 }
 .slider .MuiSlider-track {
-  height: 12px;
+  height: 7px;
 }
 .slider .MuiSlider-rail {
-  height: 12px;
+  height: 7px;
 }
 .slider .MuiSlider-markLabel {
   color: white;

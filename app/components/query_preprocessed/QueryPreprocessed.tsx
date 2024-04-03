@@ -12,7 +12,7 @@ export default function QueryPreprocessed(){
         <Parallax className='scooter-hub' strength={400}>
         <div className=' grid grid-cols-2 h-screen bg-gradient-to-b from-0% from-slate-400/80 via-transparent to-transparent'>
             <div className=' flex flex-col justify-center items-center self-center justify-self-center w-full h-full bg-gradient-to-r from-95% from-slate-400/80 to-transparent'>
-                <h2 className=' absolute flex justify-self-center top-10 text-white font-bold text-shadow-custom text-4xl'>Query our pre-processed data...</h2>
+                <h2 className=' absolute flex justify-self-center top-12 text-white font-bold text-shadow-custom text-4xl'>Query our pre-processed data...</h2>
                 <button className=' button-6'>UPDATE MAP</button>
                 <br/><br/><br/>
                 <DiscreteSlider></DiscreteSlider>
