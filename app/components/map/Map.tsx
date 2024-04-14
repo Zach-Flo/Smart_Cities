@@ -3,6 +3,9 @@ import React, { useRef, useEffect, useState } from 'react'
 import mapboxgl from 'mapbox-gl'
 import MapWrapper from './MapWrapper'
 import { MutableRefObject } from 'react'
+import QueryComponent from '../query_preprocessed/QueryComponent'
+import { FeatureCollection, Geometry, GeoJsonProperties } from 'geojson'
+import { GeoJSONData } from '../GeoJSONData'
 // Import Mapbox CSS
 import 'mapbox-gl/dist/mapbox-gl.css';
 
@@ -29,24 +32,32 @@ const InitilizeMap = (map : MutableRefObject<mapboxgl.Map | null>, mapContainer 
   })
 }
 
-export default function Map ({ name, sample }): JSX.Element {
+interface MapProps {
+  name: string;
+  sample: string;
+  onLoadData: () => void;
+}
+
+export default function Map ({ name, sample, showQuery }): JSX.Element {
 
   let mapContainer = useRef<any>(null)
   const map = useRef<mapboxgl.Map | null>(null)
+  const [mapState, setMap] = useState(null);
   const [lng] = useState(-87.6298)
   const [lat] = useState(41.8781)
   const [zoom] = useState(8.5)
   const [minZoom] = useState(8.6)
   let mapError = false;
 
+  let mapObject : MapWrapper;
+
   useEffect(() => {
     mapContainer.current = document.getElementById(`container${name}`);
-    InitilizeMap(map, mapContainer, lng, lat, zoom, minZoom)
-
-    const mapObject = new MapWrapper(name, sample, map.current!, mapContainer);
+    InitilizeMap(map, mapContainer, lng, lat, zoom, minZoom);
+    mapObject = new MapWrapper(name, sample, map.current!, mapContainer);
 
     if(mapObject.map == null){mapError=true; return;}
-    // Centers the camera and sets choropleth view
+
     mapObject.map.on('load', () => {
       
       mapObject.LoadDataSource(sample);
@@ -98,15 +109,42 @@ export default function Map ({ name, sample }): JSX.Element {
     
   });
 
-  return (
+  const mapHTML = (
     <>
       <div className=' flex justify-center'>
-        <button id={`choroplethView${name}`} className='button-6'>Choropleth (Default)</button>
-        <button id={`extrusionView${name}`} className='button-6'>Extrusion</button>
+            <button id={`choroplethView${name}`} className='button-6'>Choropleth (Default)</button>
+            <button id={`extrusionView${name}`} className='button-6'>Extrusion</button>
       </div>
       <div id={`container${name}`} ref={ mapContainer } className="w-full h-full rounded-lg"></div>
     </>
+  )
 
+  const handleUpdateData = (sample: FeatureCollection<Geometry, GeoJsonProperties> | null) => {
+    console.log("updated data")
+
+    console.log(sample)
+
+    const featureCollection: FeatureCollection<Geometry, GeoJsonProperties> = {
+      type: 'FeatureCollection',
+      features: sample!.features.map(feature => ({
+        type: 'Feature',
+        properties: feature.properties,
+        geometry: feature.geometry
+      }))
+    };
+    
+    mapObject.LoadDataSourceQuery(featureCollection);
+  }
+
+  return (
+    <>
+      {showQuery && <QueryComponent onUpdateData={handleUpdateData}></QueryComponent>}
+      {showQuery && <div className=' w-3/4 h-4/6 bg-white mx-auto mt-16 rounded-lg'>
+        {mapHTML}
+      </div>}
+
+      {!showQuery && mapHTML}
+    </>
   )
 }
 

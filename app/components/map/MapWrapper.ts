@@ -1,5 +1,5 @@
 import mapboxgl from "mapbox-gl";
-import {Position} from "geojson"
+import {FeatureCollection, GeoJsonProperties, Geometry, Position} from "geojson"
 import {RefObject, MutableRefObject, createElement } from "react";
 import {useRef} from 'react'
 
@@ -10,7 +10,6 @@ export default class MapWrapper {
     private name: string;
     private sample: string;
     
-    
 
     constructor(name : string, sample: string, map: mapboxgl.Map, mapContainer: any) {
       this.name = name;
@@ -20,15 +19,48 @@ export default class MapWrapper {
     }
 
     LoadDataSource(sample: string){
-        if(this.map == null){return;}
+      if (this.map.getSource('rides')) {
+        const ridesSource = this.map.getSource('rides');
 
-        if (!this.map.getSource('rides')) {  
+        if (ridesSource.type === 'geojson') {
+        (ridesSource as mapboxgl.GeoJSONSource).setData(sample);
+        } else {
+          this.map.removeSource('rides');
           this.map.addSource('rides', {
             type: 'geojson',
             data: sample
           });
         }
-    };
+      } else {
+        // If the source doesn't exist, add it
+        this.map.addSource('rides', {
+          type: 'geojson',
+          data: sample
+        });
+      }
+    }; 
+
+    LoadDataSourceQuery(sample: FeatureCollection<Geometry, GeoJsonProperties>){
+      if (this.map.getSource('rides')) {
+        const ridesSource = this.map.getSource('rides');
+
+        if (ridesSource.type === 'geojson') {
+        (ridesSource as mapboxgl.GeoJSONSource).setData(sample);
+        } else {
+          this.map.removeSource('rides');
+          this.map.addSource('rides', {
+            type: 'geojson',
+            data: sample
+          });
+        }
+      } else {
+        // If the source doesn't exist, add it
+        this.map.addSource('rides', {
+          type: 'geojson',
+          data: sample
+        });
+      }
+    }
 
     SetChoroplethView(){
         const choroplethView = document.getElementById('choroplethView' + this.name);
