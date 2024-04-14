@@ -33,7 +33,7 @@ export default function DiscreteSlider({ onTimeChange }) {
         marks={marks}
         min={0}
         max={24}
-        onChangeCommitted={onTimeChange}
+        onChange={onTimeChange}
       />
     </Box>
   );

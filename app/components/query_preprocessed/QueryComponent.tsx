@@ -16,14 +16,16 @@ export default function QueryComponent({ onUpdateData }){
     const handleDateChange = (date : Date) => {
         setSelectedDate(date);
         console.log(date);
+        handleQuery();
     }
 
     const handleTimeChange = (event, newValue : number) => {
         setSelectedTime(newValue);
         console.log(newValue);
+        handleQuery();
     }
 
-    const handleQueryClick = () => {
+    const handleQuery = () => {
         console.log(formatDateAndHour(selectedDate, selectedTime));
         const dateAndTime = formatDateAndHour(selectedDate, selectedTime);
         console.log(dateAndTime);
@@ -50,7 +52,6 @@ export default function QueryComponent({ onUpdateData }){
     return(
         <div className=' flex flex-col justify-center items-center self-center justify-self-center w-full h-full bg-gradient-to-r from-95% from-slate-400/80 to-transparent'>
             <h2 className=' absolute flex justify-self-center top-12 text-white font-bold text-shadow-custom text-4xl'>Query our pre-processed data...</h2>
-            <button onClick={handleQueryClick} className=' button-6'>UPDATE MAP</button>
             <br/><br/><br/>
             <DiscreteSlider onTimeChange={handleTimeChange}></DiscreteSlider>
             <br/>
