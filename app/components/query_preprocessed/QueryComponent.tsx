@@ -28,11 +28,8 @@ export default function QueryComponent({ onUpdateData }){
     }
 
     const handleQuery = () => {
-        console.log(formatDateAndHour(selectedDate, selectedTime));
         const dateAndTime = formatDateAndHour(selectedDate, selectedTime);
-        console.log(dateAndTime);
         if(preprocessedJSON){
-            console.log(preprocessedJSON[dateAndTime]);
             if(geojsonData){
                 geojsonData.features.forEach(feature => {
                     if(feature.properties){
