@@ -120,20 +120,20 @@ export default function Map ({ name, sample, showQuery }): JSX.Element {
   )
 
   const handleUpdateData = (sample: FeatureCollection<Geometry, GeoJsonProperties> | null) => {
-    console.log("updated data")
+    if(sample){
+      console.log(sample)
 
-    console.log(sample)
-
-    const featureCollection: FeatureCollection<Geometry, GeoJsonProperties> = {
-      type: 'FeatureCollection',
-      features: sample!.features.map(feature => ({
-        type: 'Feature',
-        properties: feature.properties,
-        geometry: feature.geometry
-      }))
-    };
-    
-    mapObject.LoadDataSourceQuery(featureCollection);
+      const featureCollection: FeatureCollection<Geometry, GeoJsonProperties> = {
+        type: 'FeatureCollection',
+        features: sample!.features.map(feature => ({
+          type: 'Feature',
+          properties: feature.properties,
+          geometry: feature.geometry
+        }))
+      };
+      
+      mapObject.LoadDataSourceQuery(featureCollection);
+    }
   }
 
   return (

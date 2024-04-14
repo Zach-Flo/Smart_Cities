@@ -13,16 +13,18 @@ export default function QueryComponent({ onUpdateData }){
     const[preprocessedJSON, setPreprocessedJSON] = useState(null);
     const[geojsonData, setGeoJSONData] = useState<FeatureCollection<Geometry, GeoJsonProperties> | null>(null);
 
+    useEffect(() => {
+        handleQuery();
+    }, [selectedDate, selectedTime]);
+
     const handleDateChange = (date : Date) => {
         setSelectedDate(date);
         console.log(date);
-        handleQuery();
     }
 
     const handleTimeChange = (event, newValue : number) => {
         setSelectedTime(newValue);
         console.log(newValue);
-        handleQuery();
     }
 
     const handleQuery = () => {
@@ -33,9 +35,11 @@ export default function QueryComponent({ onUpdateData }){
             console.log(preprocessedJSON[dateAndTime]);
             if(geojsonData){
                 geojsonData.features.forEach(feature => {
-                    const community = feature.properties!.community;
-                    const rides = preprocessedJSON[dateAndTime][community]
-                    feature.properties!.rides = rides;
+                    if(feature.properties){
+                        const community = feature.properties.community;
+                        const rides = preprocessedJSON[dateAndTime][community]
+                        feature.properties.rides = rides;
+                    }
                 });
             }
         }
