@@ -27,7 +27,7 @@ export default function MapComparison(){
                 <Background className=''>                     
                     <div className='content'>
                         <img
-                        src="https://www.travelandleisure.com/thmb/wwUPgdpCUuD5sAPFLQf4YasjH0M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicago-illinois-CHITG0221-e448062fc5164da0bba639f9857987f6.jpg"
+                        src="https://vastphotos.com/files/uploads/photos/10587/millennium-park-chicago-l.jpg?v=20220712073521"
                         className='  min-w-min '
                         alt='scooter'>
                         </img>

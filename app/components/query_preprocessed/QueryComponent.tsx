@@ -19,12 +19,10 @@ export default function QueryComponent({ onUpdateData }){
 
     const handleDateChange = (date : Date) => {
         setSelectedDate(date);
-        console.log(date);
     }
 
     const handleTimeChange = (event, newValue : number) => {
         setSelectedTime(newValue);
-        console.log(newValue);
     }
 
     const handleQuery = () => {

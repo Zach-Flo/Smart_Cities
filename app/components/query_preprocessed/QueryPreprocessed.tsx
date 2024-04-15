@@ -20,7 +20,7 @@ export default function QueryPreprocessed(){
             <Background className=''>
                 <div className='content'>
                     <img
-                    src="https://www.tripsavvy.com/thmb/JxfvhfiP7GYuORAf14AuhykDNto=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicago-river-tourboat-downtown-chicago-skyscrapers-1139456318-b5e51582061b4c03a2ede6616ccf32da.jpg"
+                    src="https://i.etsystatic.com/14727263/r/il/a04f1d/1587778285/il_fullxfull.1587778285_9jg4.jpg"
                     className=' min-h-screen min-w-min'
                     alt='scooter'>
                     </img>
