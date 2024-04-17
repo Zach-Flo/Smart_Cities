@@ -35,7 +35,7 @@ export default function Scroll() {
 
   return (
     <>
-    <Parallax className='z-10' strength={300}>
+    <Parallax className='z-10' strength={100}>
       <Background className='w-full bg-cover drop-shadow-xl'>
       <MapZoom>
 

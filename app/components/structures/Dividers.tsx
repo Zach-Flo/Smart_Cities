@@ -1,3 +1,10 @@
+export function Divider0(){
+    return(
+        <div className=' max-h-fit min-h-fit p-2 h-1 font-semibold text-[color:var(--blackv)] shadow-xl  text-center flex bg-black font-sans z-40'>
+        </div>
+    )
+}
+
 export function Divider1(){
     return(
         <div className=' max-h-fit min-h-fit p-2 font-semibold text-[color:var(--blackv)] shadow-xl  text-center flex bg-[color:var(--whitev)] font-sans z-40'>

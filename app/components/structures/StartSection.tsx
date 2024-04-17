@@ -6,11 +6,11 @@ export default function StartSection(){
         <>
         <Title></Title>
         <SubTitle></SubTitle>
-            <Parallax className='fallen-scooter drop-shadow-xl' strength={400}>
+            <Parallax className='fallen-scooter drop-shadow-xl' strength={200}>
                 <Background>
                     <div className='content '>
                         <img
-                        src="https://cdn.sanity.io/images/xl8ls2xi/production/73097d2b39bf5fa68fa5fcb169d5151869fbff3b-2000x1156.jpg?q=85&auto=format"
+                        src="https://i.pinimg.com/originals/fe/02/66/fe026605b330d36bc0ca511ab9d636ee.jpg"
                         className='z-10 min-h-screen  min-w-min drop-shadow-xl'
                         alt='scooter'>
                         </img>
