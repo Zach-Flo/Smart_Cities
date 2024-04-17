@@ -8,12 +8,12 @@ import MapIncome from '@/app/components/map/MapIncome'
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export default function Scroll() {
-  const main = useRef();
+  const main = useRef<HTMLDivElement>(null);
   
 
   useGSAP(
     () => {
-      const slides = gsap.utils.toArray('.slide');
+      const slides : Element[] = gsap.utils.toArray('.slide');
       slides.forEach((slide) => {
         gsap.to(slide, {
           y: 80,
