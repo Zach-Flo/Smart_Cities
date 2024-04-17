@@ -1,0 +1,28 @@
+
+  .section {
+    display: block;
+    width: 100%;
+    max-width: 100% ;
+    height: 100vh;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  
+  .section.left {
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .section.right {
+    justify-content: center;
+    text-align: right;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+  }
+  
