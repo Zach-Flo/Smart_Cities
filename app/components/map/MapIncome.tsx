@@ -14,7 +14,8 @@ export default function Map() {
       container: mapContainer.current,
       style: 'https://api.maptiler.com/maps/dataviz-dark/style.json?key=b41Hlw1LqCtziUrbzgbR',
       center: [lng, lat],
-      zoom: zoom
+      zoom: zoom,
+      scrollZoom: false
     });
 
     /*
@@ -25,6 +26,6 @@ export default function Map() {
     */
   });
   return (
-   <div ref={mapContainer}  className="flex flex-col h-screen my-auto items-center bgimg bg-cover"></div>
+   <div ref={mapContainer}  className="flex flex-col h-screen my-auto items-center bgimg bg-cover -z-10"></div>
   )
 }

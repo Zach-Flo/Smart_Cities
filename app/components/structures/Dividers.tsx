@@ -1,6 +1,6 @@
 export function Divider1(){
     return(
-        <div className=' max-h-fit min-h-fit p-2 font-semibold text-[color:var(--blackv)] shadow-xl opacity-70 text-center flex bg-[color:var(--whitev)] font-sans'>
+        <div className=' max-h-fit min-h-fit p-2 font-semibold text-[color:var(--blackv)] shadow-xl  text-center flex bg-[color:var(--whitev)] font-sans z-40'>
             Our project delves into E-Scooter usage rates across various Chicago regions, 
             employing machine learning techniques for analysis. Through data-driven insights, 
             we aim to understand patterns and trends in E-Scooter utilization, considering factors 
