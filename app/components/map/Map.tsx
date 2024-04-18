@@ -112,6 +112,7 @@ export default function Map ({ name, sample, showQuery }): JSX.Element {
   if (!showQuery) {
     useEffect(() => {
       const interval = setInterval(async () => {
+        console.log("startRefresh")
         const bucketName = 'sdp-smart-cities';
         const fileName = sample;
         const response = await mapObject.fetchGeoJSONFromS3(bucketName, fileName);

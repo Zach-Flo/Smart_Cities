@@ -293,10 +293,8 @@ export default class MapWrapper {
         `https://${bucketName}.s3.amazonaws.com/${fileName}`
       );
       if (!response.ok) {
-        throw new Error(
-          `Failed to fetch GeoJSON from S3: ${response.statusText}`
-        );
-      }
+         console.log(`Failed to fetch GeoJSON from S3: ${response.statusText}`);
+       }
       const geojsonData = await response.json();
       return geojsonData as FeatureCollection<Geometry, GeoJsonProperties>;
     } catch (error) {
