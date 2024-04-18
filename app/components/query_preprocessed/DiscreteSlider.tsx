@@ -10,7 +10,7 @@ function valuetext(value: number) {
 export default function DiscreteSlider({ onTimeChange }) {
 
   const marks = [
-    { value: 0, label: '0:00', style: {color: 'white'} },
+    { value: 0, label: '0:00', style: { color: 'white' } },
     { value: 3, label: '3:00' },
     { value: 6, label: '6:00' },
     { value: 9, label: '9:00' },
@@ -23,7 +23,7 @@ export default function DiscreteSlider({ onTimeChange }) {
 
   // NOTE: Edit slider style in globals.css
   return (
-    <Box sx={{ width: '80%', color: 'white'}}>
+    <Box sx={{ width: '80%', color: 'white' }}>
       <Slider className="slider"
         aria-label="Time"
         defaultValue={0}

@@ -4,8 +4,8 @@ import { Parallax, Background } from 'react-parallax'
 export default function StartSection(){
     return(
         <>
-        <Title></Title>
-        <SubTitle></SubTitle>
+            <Title></Title>
+            <SubTitle></SubTitle>
             <Parallax className='fallen-scooter drop-shadow-xl' strength={200}>
                 <Background>
                     <div className='content '>

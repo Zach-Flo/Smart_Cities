@@ -36,10 +36,5 @@ export function Divider3(){
             Our findings serve as a foundation for future initiatives aimed at optimizing transportation systems
             and fostering sustainable urban development in the city. 
         </div>
-
-
-
     )
-
-
 }

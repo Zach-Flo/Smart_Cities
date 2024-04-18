@@ -19,11 +19,11 @@ const cities: City[] = [
 export default function Map() {
   const [activeCity, setActiveCity] = useState<number | null>(null);
   const mapContainer = React.useRef<any>(null);
-   const map = React.useRef<mapboxgl.Map | null>(null);
-   const [lng, setLng] = React.useState(-95.7129);
-   const [lat, setLat] = React.useState(37.0902); 
-   const [zoom, setZoom] = React.useState(4);
-   const [pitch, setPitch] = React.useState(55);
+  const map = React.useRef<mapboxgl.Map | null>(null);
+  const [lng, setLng] = React.useState(-95.7129);
+  const [lat, setLat] = React.useState(37.0902);
+  const [zoom, setZoom] = React.useState(4);
+  const [pitch, setPitch] = React.useState(55);
 
 
   React.useEffect(() => {
@@ -37,6 +37,6 @@ export default function Map() {
     })
   });
   return (
-   <div ref={mapContainer}  className="flex w-screen flex-col h-screen my-auto items-center bgimg bg-cover"></div>
+    <div ref={mapContainer} className="flex w-screen flex-col h-screen my-auto items-center bgimg bg-cover"></div>
   )
 }

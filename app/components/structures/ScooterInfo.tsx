@@ -35,26 +35,22 @@ export default function Scroll() {
 
   return (
     <>
-    <Parallax className='z-10' strength={100}>
-      <Background className='w-full bg-cover drop-shadow-xl'>
-      <MapZoom>
-
-      </MapZoom>
-      </Background>
-      <div>
-      <div className="section flex-center column w-full text-white" ref={main}>
-      <div className="slide flex pb-14">
-        <p className="text-3xl p-14 drop-shadow-lg">Exploring data trends for electric scooters in urban areas.</p>
-      </div>
-      <div className="slide flex pt-14">
-        <p className="text-3xl text-right p-14 drop-shadow-lg">Our goal was to show how AI can be applied to better understand how electric scooters help to fill the transportation gaps of urban community.</p>
-      </div>
-      </div>
-    </div>
-    </Parallax>
-    
-        
+      <Parallax className='z-10' strength={100}>
+        <Background className='w-full bg-cover drop-shadow-xl'>
+          <MapZoom>
+          </MapZoom>
+        </Background>
+        <div>
+          <div className="section flex-center column w-full text-white" ref={main}>
+            <div className="slide flex pb-14">
+              <p className="text-3xl p-14 drop-shadow-lg">Exploring data trends for electric scooters in urban areas.</p>
+            </div>
+            <div className="slide flex pt-14">
+              <p className="text-3xl text-right p-14 drop-shadow-lg">Our goal was to show how AI can be applied to better understand how electric scooters help to fill the transportation gaps of urban community.</p>
+            </div>
+          </div>
+        </div>
+      </Parallax>
     </>
-    
   );
 }

@@ -109,15 +109,7 @@ export default function Map ({ name, sample, showQuery }): JSX.Element {
     
   });
 
-  const mapHTML = (
-    <>
-      <div className=' flex justify-center'>
-            <button id={`choroplethView${name}`} className='button-6'>Choropleth (Default)</button>
-            <button id={`extrusionView${name}`} className='button-6'>Extrusion</button>
-      </div>
-      <div id={`container${name}`} ref={ mapContainer } className="w-full h-full rounded-lg"></div>
-    </>
-  )
+  
 
   const handleUpdateData = (sample: FeatureCollection<Geometry, GeoJsonProperties> | null) => {
     if(sample){
@@ -133,6 +125,15 @@ export default function Map ({ name, sample, showQuery }): JSX.Element {
       mapObject.LoadDataSourceQuery(featureCollection);
     }
   }
+  const mapHTML = (
+    <>
+      <div className=' flex justify-center'>
+            <button id={`choroplethView${name}`} className='button-6'>Choropleth (Default)</button>
+            <button id={`extrusionView${name}`} className='button-6'>Extrusion</button>
+      </div>
+      <div id={`container${name}`} ref={ mapContainer } className="w-full h-full rounded-lg"></div>
+    </>
+  )
 
   return (
     <>
