@@ -3,7 +3,6 @@ import {FeatureCollection, GeoJsonProperties, Geometry, Position} from "geojson"
 import {RefObject, MutableRefObject, createElement } from "react";
 import {useRef} from 'react'
 
-
 export default class MapWrapper {
   public map: mapboxgl.Map;
   public mapContainer: any;
@@ -36,7 +35,6 @@ export default class MapWrapper {
         });
       }
     } else {
-      // If the source doesn't exist, add it
       this.map.addSource("rides", {
         type: "geojson",
         data: sample,
@@ -58,7 +56,6 @@ export default class MapWrapper {
         });
       }
     } else {
-      // If the source doesn't exist, add it
       this.map.addSource("rides", {
         type: "geojson",
         data: sample,
@@ -286,4 +283,26 @@ export default class MapWrapper {
       }
     }, interval);
   }
+
+  async fetchGeoJSONFromS3(
+    bucketName: string,
+    fileName: string
+  ): Promise<FeatureCollection<Geometry, GeoJsonProperties>> {
+    try {
+      const response = await fetch(
+        `https://${bucketName}.s3.amazonaws.com/${fileName}`
+      );
+      if (!response.ok) {
+        throw new Error(
+          `Failed to fetch GeoJSON from S3: ${response.statusText}`
+        );
+      }
+      const geojsonData = await response.json();
+      return geojsonData as FeatureCollection<Geometry, GeoJsonProperties>;
+    } catch (error) {
+      console.error("Error fetching GeoJSON from S3:", error);
+      throw error; // You can handle the error as per your application's requirement
+    }
+  }
+
 }

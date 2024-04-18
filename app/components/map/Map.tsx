@@ -109,7 +109,19 @@ export default function Map ({ name, sample, showQuery }): JSX.Element {
     
   });
 
-  
+  if (!showQuery) {
+    useEffect(() => {
+      const interval = setInterval(async () => {
+        const bucketName = 'sdp-smart-cities';
+        const fileName = sample;
+        const response = await mapObject.fetchGeoJSONFromS3(bucketName, fileName);
+        mapObject.LoadDataSourceQuery(response);
+        console.log("Data refreshed")
+      }, 20000); 
+
+      return () => clearInterval(interval);
+    }, []);
+  }
 
   const handleUpdateData = (sample: FeatureCollection<Geometry, GeoJsonProperties> | null) => {
     if(sample){
