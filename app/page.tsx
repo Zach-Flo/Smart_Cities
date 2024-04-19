@@ -16,17 +16,14 @@ function App (): JSX.Element {
     <>
       <div className="App">
         <StartSection></StartSection>
-        <Divider0></Divider0>
-        <ScooterInfo></ScooterInfo>
-        <Divider1></Divider1>
-        <Underserved></Underserved>
 
-        <Graph></Graph>
-        <MapComparison></MapComparison>
+        <Divider1></Divider1>
+
+        <QueryPreprocessed></QueryPreprocessed>
 
         <Divider2></Divider2>
 
-        <QueryPreprocessed></QueryPreprocessed>
+        <MapComparison></MapComparison>
 
         <Divider3></Divider3>
  

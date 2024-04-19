@@ -6,7 +6,6 @@ import { MutableRefObject } from 'react'
 import QueryComponent from '../query_preprocessed/QueryComponent'
 import { FeatureCollection, Geometry, GeoJsonProperties } from 'geojson'
 import { GeoJSONData } from '../GeoJSONData'
-// Import Mapbox CSS
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 let apiKey = "pk.eyJ1IjoiemFjaGZsbyIsImEiOiJjbHQ3cWYyN2MwYnZ3MnFvZGtxMnl0ZmVnIn0.I6mUKSYjwbuH_XX_UAEcTg";
